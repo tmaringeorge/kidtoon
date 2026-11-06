@@ -26,7 +26,8 @@ enum Section {
   final Color color;
 }
 
-/// Ecranul principal: meniu lateral (se lărgește când e ales cu telecomanda) și secțiunea aleasă.
+/// Ecranul principal: meniu lateral îngust, doar cu iconițe, care se lărgește doar cât e ales
+/// cu telecomanda (ca în aplicația de TV) sau când apeși pe logo (pe telefon), și secțiunea aleasă.
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key, required this.state});
   final AppState state;
@@ -37,7 +38,7 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   late Section _section = Section.values[widget.state.lastSection.clamp(0, Section.values.length - 1)];
-  bool _railFocused = false;
+  bool _railOpen = false;
 
   @override
   void initState() {
@@ -46,8 +47,23 @@ class _MainScreenState extends State<MainScreen> {
   }
 
   void go(Section s) {
-    setState(() => _section = s);
+    setState(() {
+      _section = s;
+      _railOpen = false;
+    });
     widget.state.lastSection = s.index;
+    // Cu telecomanda, focusul trece din meniu pe secțiunea aleasă, ca meniul să rămână strâns.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final f = FocusManager.instance.primaryFocus;
+      if (f != null && FocusManager.instance.highlightMode == FocusHighlightMode.traditional) {
+        f.focusInDirection(TraversalDirection.right);
+      }
+    });
+  }
+
+  void _openRail(bool open) {
+    if (open != _railOpen) setState(() => _railOpen = open);
   }
 
   Widget _content() {
@@ -64,9 +80,7 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.sizeOf(context);
-    final wide = size.width >= 900;
-    final expanded = wide && _railFocused;
+    final expanded = _railOpen;
     final safe = MediaQuery.paddingOf(context);
     return Scaffold(
       body: Row(
@@ -75,19 +89,24 @@ class _MainScreenState extends State<MainScreen> {
           Focus(
             canRequestFocus: false,
             skipTraversal: true,
-            onFocusChange: (f) => setState(() => _railFocused = f),
+            onFocusChange: (f) {
+              if (!f) _openRail(false);
+            },
             child: AnimatedContainer(
               duration: const Duration(milliseconds: 180),
-              width: (expanded ? 230 : 92) + safe.left,
+              width: (expanded ? 240 : 76) + safe.left,
               color: KidColors.panel,
               padding: EdgeInsets.only(left: safe.left, top: safe.top + 8, bottom: safe.bottom + 8),
               child: Column(
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(bottom: 6),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(14),
-                      child: Image.asset('assets/logo.png', width: 46, height: 46),
+                    child: GestureDetector(
+                      onTap: () => _openRail(!_railOpen),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(14),
+                        child: Image.asset('assets/logo.png', width: 46, height: 46),
+                      ),
                     ),
                   ),
                   Expanded(
@@ -101,6 +120,7 @@ class _MainScreenState extends State<MainScreen> {
                               color: s.color,
                               selected: s == _section,
                               expanded: expanded,
+                              onFocused: () => _openRail(true),
                               onTap: () => go(s),
                             ),
                         ],
@@ -113,6 +133,7 @@ class _MainScreenState extends State<MainScreen> {
                     color: KidColors.card,
                     selected: false,
                     expanded: expanded,
+                    onFocused: () => _openRail(true),
                     onTap: () => ParentGate.push(context, widget.state, (_) => SettingsScreen(state: widget.state)),
                   ),
                 ],
@@ -140,6 +161,7 @@ class _RailItem extends StatefulWidget {
     required this.selected,
     required this.expanded,
     required this.onTap,
+    this.onFocused,
   });
   final String emoji;
   final String label;
@@ -147,6 +169,7 @@ class _RailItem extends StatefulWidget {
   final bool selected;
   final bool expanded;
   final VoidCallback onTap;
+  final VoidCallback? onFocused;
 
   @override
   State<_RailItem> createState() => _RailItemState();
@@ -164,13 +187,13 @@ class _RailItemState extends State<_RailItem> {
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
       style: TextStyle(
-        fontSize: widget.expanded ? 20 : 13,
+        fontSize: 20,
         fontWeight: FontWeight.w900,
         color: widget.selected || _focused ? Colors.white : KidColors.textDim,
       ),
     );
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 3),
       child: Material(
         color: bg,
         shape: RoundedRectangleBorder(
@@ -180,7 +203,10 @@ class _RailItemState extends State<_RailItem> {
         child: InkWell(
           borderRadius: BorderRadius.circular(20),
           focusColor: Colors.transparent,
-          onFocusChange: (f) => setState(() => _focused = f),
+          onFocusChange: (f) {
+            setState(() => _focused = f);
+            if (f) widget.onFocused?.call();
+          },
           onTap: widget.onTap,
           child: Padding(
             padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 6),
@@ -193,7 +219,9 @@ class _RailItemState extends State<_RailItem> {
                       Expanded(child: label),
                     ],
                   )
-                : Column(children: [emoji, label]),
+                : Center(
+                    child: Tooltip(message: widget.label, child: emoji),
+                  ),
           ),
         ),
       ),

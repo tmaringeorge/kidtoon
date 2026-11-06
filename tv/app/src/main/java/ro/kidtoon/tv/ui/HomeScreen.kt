@@ -33,6 +33,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -50,6 +51,7 @@ import androidx.tv.material3.Icon
 import androidx.tv.material3.Surface
 import androidx.tv.material3.Text
 import coil.compose.AsyncImage
+import kotlinx.coroutines.delay
 import ro.kidtoon.tv.data.Categories
 import ro.kidtoon.tv.data.Channel
 import ro.kidtoon.tv.data.GhiBook
@@ -96,19 +98,30 @@ fun HomeScreen(
 ) {
     val contentFocus = remember { FocusRequester() }
     var drawerOpen by remember { mutableStateOf(false) }
-    val drawerWidth by animateDpAsState(if (drawerOpen) 290.dp else 92.dp, label = "drawer")
+    // Ca în androidtv: îngust (doar iconițele) și se lărgește doar cât e ales cu telecomanda.
+    val drawerWidth by animateDpAsState(if (drawerOpen) 280.dp else 76.dp, label = "drawer")
 
-    LaunchedEffect(section, state.loading) { runCatching { contentFocus.requestFocus() } }
+    // După ce alegi o secțiune, focusul trece pe conținut și meniul se strânge.
+    // Grila își compune plăcile abia la măsurare, deci mai încercăm câteva cadre.
+    LaunchedEffect(section, state.loading) {
+        repeat(20) {
+            withFrameNanos { }
+            if (runCatching { contentFocus.requestFocus() }.isSuccess) {
+                delay(60)
+                return@LaunchedEffect
+            }
+        }
+    }
 
     Row(Modifier.fillMaxSize()) {
         // ---------------- Meniul lateral ----------------
         Column(
             Modifier.width(drawerWidth).fillMaxHeight().background(KidColors.Panel)
-                .onFocusChanged { drawerOpen = it.hasFocus }
-                .padding(vertical = 20.dp, horizontal = 12.dp),
+                .onFocusChanged { if (!it.hasFocus) drawerOpen = false }
+                .padding(vertical = 20.dp, horizontal = 10.dp),
             verticalArrangement = Arrangement.spacedBy(6.dp),
         ) {
-            Row(Modifier.padding(start = 12.dp, bottom = 14.dp), verticalAlignment = Alignment.CenterVertically) {
+            Row(Modifier.padding(start = 10.dp, bottom = 14.dp), verticalAlignment = Alignment.CenterVertically) {
                 Text("🧸", fontSize = 34.sp)
                 if (drawerOpen) {
                     Spacer(Modifier.width(12.dp))
@@ -116,11 +129,14 @@ fun HomeScreen(
                 }
             }
             Section.entries.forEach { s ->
-                DrawerItem(s.emoji, if (s == Section.STORIES) "Povești cu ${character.name}" else s.label, s == section, drawerOpen, { onSection(s) })
+                DrawerItem(
+                    s.emoji, if (s == Section.STORIES) "Povești cu ${character.name}" else s.label, s == section, drawerOpen,
+                    onClick = { drawerOpen = false; onSection(s) }, onFocused = { drawerOpen = true },
+                )
             }
             Spacer(Modifier.weight(1f))
-            DrawerItem("🎵", "Radio cu animații", false, drawerOpen, actions.onOpenRadio)
-            DrawerItem("🔒", "Părinți", false, drawerOpen, actions.onOpenParents)
+            DrawerItem("🎵", "Radio cu animații", false, drawerOpen, actions.onOpenRadio, onFocused = { drawerOpen = true })
+            DrawerItem("🔒", "Părinți", false, drawerOpen, actions.onOpenParents, onFocused = { drawerOpen = true })
         }
 
         // ---------------- Conținutul ----------------
@@ -346,10 +362,11 @@ private fun DrawerItem(
     expanded: Boolean,
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
+    onFocused: () -> Unit = {},
 ) {
     Surface(
         onClick = onClick,
-        modifier = modifier.fillMaxWidth().height(58.dp),
+        modifier = modifier.fillMaxWidth().height(56.dp).onFocusChanged { if (it.isFocused) onFocused() },
         shape = ClickableSurfaceDefaults.shape(RoundedCornerShape(18.dp)),
         colors = ClickableSurfaceDefaults.colors(
             containerColor = if (selected) KidColors.AccentSoft else KidColors.Panel,
@@ -359,7 +376,7 @@ private fun DrawerItem(
         ),
         scale = ClickableSurfaceDefaults.scale(focusedScale = 1.04f),
     ) {
-        Row(Modifier.fillMaxSize().padding(horizontal = 14.dp), verticalAlignment = Alignment.CenterVertically) {
+        Row(Modifier.fillMaxSize().padding(horizontal = 10.dp), verticalAlignment = Alignment.CenterVertically) {
             Box(Modifier.size(36.dp), contentAlignment = Alignment.Center) { Text(emoji, fontSize = 26.sp) }
             if (expanded) {
                 Spacer(Modifier.width(14.dp))
