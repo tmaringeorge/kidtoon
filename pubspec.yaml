@@ -1,0 +1,37 @@
+name: kidtoon
+description: "KidToon - desene, povești, radio și atelier creativ pentru copii, pe telefon și Android TV."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  video_player: ^2.14.1
+  http: ^1.6.0
+  xml: ^7.1.0
+  shared_preferences: ^2.5.6
+  path_provider: ^2.1.6
+  wakelock_plus: ^1.8.2
+  crypto: ^3.0.8
+  just_audio: ^0.10.6
+  just_audio_background: ^0.0.1-beta.17
+  flutter_tts: ^4.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/copii.m3u
+    - assets/logo.png
+    - assets/ghi/episodes.json
