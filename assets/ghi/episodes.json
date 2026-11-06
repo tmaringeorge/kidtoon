@@ -1,0 +1,10532 @@
+{
+ "sets": {
+  "meadow": {
+   "sky": [
+    "#64B5F6",
+    "#BBDEFB"
+   ],
+   "ground": "#8BC34A",
+   "horizon": 0.72,
+   "deco": [
+    "sun",
+    "clouds",
+    "hills",
+    "flowers"
+   ]
+  },
+  "lake": {
+   "sky": [
+    "#4FC3F7",
+    "#E1F5FE"
+   ],
+   "ground": "#9CCC65",
+   "horizon": 0.66,
+   "deco": [
+    "sun",
+    "clouds",
+    "hills",
+    "lake",
+    "reeds"
+   ]
+  },
+  "field": {
+   "sky": [
+    "#42A5F5",
+    "#BBDEFB"
+   ],
+   "ground": "#66BB6A",
+   "horizon": 0.66,
+   "deco": [
+    "sun",
+    "clouds",
+    "stripes",
+    "goal"
+   ]
+  },
+  "party": {
+   "sky": [
+    "#F8BBD0",
+    "#FCE4EC"
+   ],
+   "ground": "#BCAAA4",
+   "horizon": 0.74,
+   "deco": [
+    "window",
+    "garland",
+    "balloons"
+   ]
+  },
+  "room": {
+   "sky": [
+    "#FFE0B2",
+    "#FFF3E0"
+   ],
+   "ground": "#A1887F",
+   "horizon": 0.74,
+   "deco": [
+    "window",
+    "frame",
+    "rug"
+   ]
+  },
+  "kinder": {
+   "sky": [
+    "#C5E1A5",
+    "#F1F8E9"
+   ],
+   "ground": "#FFCC80",
+   "horizon": 0.74,
+   "deco": [
+    "window",
+    "board",
+    "rug"
+   ]
+  },
+  "night": {
+   "sky": [
+    "#0D1B3E",
+    "#283593"
+   ],
+   "ground": "#1B5E20",
+   "horizon": 0.74,
+   "deco": [
+    "stars",
+    "moon",
+    "hills_dark"
+   ]
+  },
+  "bath": {
+   "sky": [
+    "#B2EBF2",
+    "#E0F7FA"
+   ],
+   "ground": "#80DEEA",
+   "horizon": 0.76,
+   "deco": [
+    "tiles",
+    "tub_front"
+   ]
+  },
+  "bathroom": {
+   "sky": [
+    "#B2EBF2",
+    "#E0F7FA"
+   ],
+   "ground": "#80DEEA",
+   "horizon": 0.76,
+   "deco": [
+    "tiles",
+    "sink"
+   ]
+  },
+  "beach": {
+   "sky": [
+    "#4FC3F7",
+    "#E1F5FE"
+   ],
+   "ground": "#FFE082",
+   "horizon": 0.7,
+   "deco": [
+    "sun",
+    "clouds",
+    "sea"
+   ]
+  },
+  "snow": {
+   "sky": [
+    "#90A4AE",
+    "#ECEFF1"
+   ],
+   "ground": "#FAFAFA",
+   "horizon": 0.7,
+   "deco": [
+    "hills_snow",
+    "snowfall"
+   ]
+  },
+  "kitchen": {
+   "sky": [
+    "#FFF9C4",
+    "#FFFDE7"
+   ],
+   "ground": "#BCAAA4",
+   "horizon": 0.74,
+   "deco": [
+    "window",
+    "counter"
+   ]
+  },
+  "rain": {
+   "sky": [
+    "#78909C",
+    "#B0BEC5"
+   ],
+   "ground": "#7CB342",
+   "horizon": 0.72,
+   "deco": [
+    "clouds_grey",
+    "hills",
+    "rain"
+   ]
+  },
+  "bedroom": {
+   "sky": [
+    "#283593",
+    "#3949AB"
+   ],
+   "ground": "#5D4037",
+   "horizon": 0.76,
+   "deco": [
+    "window_night",
+    "bed",
+    "lamp"
+   ]
+  },
+  "park": {
+   "sky": [
+    "#64B5F6",
+    "#E3F2FD"
+   ],
+   "ground": "#7CB342",
+   "horizon": 0.7,
+   "deco": [
+    "sun",
+    "clouds",
+    "trees",
+    "path"
+   ]
+  },
+  "shop": {
+   "sky": [
+    "#FFFFFF",
+    "#F5F5F5"
+   ],
+   "ground": "#CFD8DC",
+   "horizon": 0.76,
+   "deco": [
+    "shelves"
+   ]
+  },
+  "garden": {
+   "sky": [
+    "#81D4FA",
+    "#E1F5FE"
+   ],
+   "ground": "#8D6E63",
+   "horizon": 0.72,
+   "deco": [
+    "sun",
+    "clouds",
+    "fence",
+    "grass_edge"
+   ]
+  },
+  "stage": {
+   "sky": [
+    "#4A148C",
+    "#880E4F"
+   ],
+   "ground": "#6D4C41",
+   "horizon": 0.76,
+   "deco": [
+    "curtain",
+    "spotlight"
+   ]
+  },
+  "farm": {
+   "sky": [
+    "#4FC3F7",
+    "#E1F5FE"
+   ],
+   "ground": "#9CCC65",
+   "horizon": 0.7,
+   "deco": [
+    "sun",
+    "clouds",
+    "barn",
+    "fence"
+   ]
+  },
+  "sky": {
+   "sky": [
+    "#29B6F6",
+    "#E1F5FE"
+   ],
+   "ground": "#AED581",
+   "horizon": 0.92,
+   "deco": [
+    "sun",
+    "clouds",
+    "clouds_low"
+   ]
+  },
+  "station": {
+   "sky": [
+    "#4FC3F7",
+    "#E1F5FE"
+   ],
+   "ground": "#B0BEC5",
+   "horizon": 0.7,
+   "deco": [
+    "sun",
+    "clouds",
+    "hills",
+    "rails"
+   ]
+  },
+  "office": {
+   "sky": [
+    "#ECEFF1",
+    "#FAFAFA"
+   ],
+   "ground": "#A1887F",
+   "horizon": 0.74,
+   "deco": [
+    "window",
+    "frame",
+    "desk"
+   ]
+  },
+  "clinic": {
+   "sky": [
+    "#E3F2FD",
+    "#FAFAFA"
+   ],
+   "ground": "#B0BEC5",
+   "horizon": 0.74,
+   "deco": [
+    "window",
+    "frame",
+    "bed"
+   ]
+  },
+  "street": {
+   "sky": [
+    "#64B5F6",
+    "#E3F2FD"
+   ],
+   "ground": "#9E9E9E",
+   "horizon": 0.7,
+   "deco": [
+    "sun",
+    "clouds",
+    "trees",
+    "path"
+   ]
+  },
+  "site": {
+   "sky": [
+    "#4FC3F7",
+    "#E1F5FE"
+   ],
+   "ground": "#A1887F",
+   "horizon": 0.7,
+   "deco": [
+    "sun",
+    "clouds",
+    "hills",
+    "fence"
+   ]
+  },
+  "airport": {
+   "sky": [
+    "#29B6F6",
+    "#E1F5FE"
+   ],
+   "ground": "#90A4AE",
+   "horizon": 0.74,
+   "deco": [
+    "sun",
+    "clouds",
+    "clouds_low"
+   ]
+  }
+ },
+ "episodes": [
+  {
+   "id": "zbor",
+   "title": "GHI {dragonul} zboară",
+   "set": "sky",
+   "learn": "{Dragonii} buni suflă steluțe, nu foc. Și aterizează cu grijă.",
+   "beats": [
+    {
+     "say": "GHI dă din aripioare: flap, flap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "face": "wow",
+      "puff": "steam"
+     },
+     "props": []
+    },
+    {
+     "say": "Și se ridică ușor în aer…",
+     "sec": 10,
+     "ghi": {
+      "pose": "fly",
+      "x": [
+       0.4,
+       0.45
+      ],
+      "y": [
+       0.9,
+       0.64
+      ],
+      "face": "happy"
+     },
+     "props": [],
+     "cam": [
+      1.0,
+      1.08
+     ]
+    },
+    {
+     "say": "Zboară printre nori",
+     "sec": 10,
+     "ghi": {
+      "pose": "fly",
+      "x": [
+       0.3,
+       0.7
+      ],
+      "y": 0.62,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "☁️",
+       "x": [
+        0.9,
+        0.6
+       ],
+       "y": 0.3,
+       "s": 0.16,
+       "m": "float"
+      }
+     ]
+    },
+    {
+     "say": "Care e norul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "☁️",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐰",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Acesta e norul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Norul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Suflă steluțe, nu foc. Ce frumos!",
+     "sec": 10,
+     "ghi": {
+      "pose": "fly",
+      "x": 0.55,
+      "y": 0.64,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": []
+    },
+    {
+     "say": "Aterizează ușor: unu, doi, trei, hop!",
+     "sec": 8,
+     "ghi": {
+      "pose": "fly",
+      "x": 0.5,
+      "y": [
+       0.64,
+       0.9
+      ],
+      "face": "calm"
+     },
+     "props": []
+    },
+    {
+     "say": "Acum tu! Bate din palme cu GHI: clap, clap, clap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.5,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Bravo, GHI!",
+     "sec": 8,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.5,
+      "puff": "hearts"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "peste",
+   "title": "GHI la pescuit",
+   "set": "lake",
+   "learn": "Numărăm până la trei și avem grijă de peștișori.",
+   "beats": [
+    {
+     "say": "GHI merge la lac cu undița",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.05,
+       0.3
+      ],
+      "hold": "🎣"
+     },
+     "props": []
+    },
+    {
+     "say": "Ssst! Stăm liniștiți și așteptăm",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.3,
+      "face": "calm",
+      "hold": "🎣"
+     },
+     "props": [
+      {
+       "e": "🐟",
+       "x": [
+        0.85,
+        0.6
+       ],
+       "y": 0.8,
+       "s": 0.07,
+       "m": "swim"
+      }
+     ]
+    },
+    {
+     "say": "Care e peștișorul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐰",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐟",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Acesta e peștișorul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Peștișorul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Unu, doi, trei peștișori!",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.3,
+      "face": "wow",
+      "hold": "🎣"
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "🐟",
+       "🐟",
+       "🐟"
+      ],
+      "y": 0.82,
+      "s": 0.08,
+      "x": [
+       0.55,
+       0.85
+      ]
+     }
+    },
+    {
+     "say": "Hop! GHI a prins un peștișor",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3,
+      "hold": "🐟",
+      "puff": "stars"
+     },
+     "props": []
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Pa-pa, peștișorule! Înapoi în apă",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🐟",
+       "x": [
+        0.45,
+        0.7
+       ],
+       "y": [
+        0.6,
+        0.82
+       ],
+       "s": 0.08,
+       "m": "none"
+      },
+      {
+       "e": "🫧",
+       "x": 0.7,
+       "y": 0.78,
+       "s": 0.06,
+       "m": "float",
+       "in": 0.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fotbal",
+   "title": "GHI la fotbal",
+   "set": "field",
+   "learn": "Mingea o lovim cu piciorul, iar după joacă bem apă.",
+   "beats": [
+    {
+     "say": "GHI vine pe teren cu mingea",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.05,
+       0.3
+      ]
+     },
+     "props": [
+      {
+       "e": "⚽",
+       "x": [
+        0.12,
+        0.37
+       ],
+       "y": 0.85,
+       "s": 0.07,
+       "m": "spin"
+      }
+     ]
+    },
+    {
+     "say": "Unu, doi, trei… șut!",
+     "sec": 10,
+     "ghi": {
+      "pose": "kick",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "⚽",
+       "x": [
+        0.37,
+        0.82
+       ],
+       "y": [
+        0.85,
+        0.62
+       ],
+       "s": 0.07,
+       "m": "spin",
+       "in": 0.3
+      }
+     ]
+    },
+    {
+     "say": "Care e mingea? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐈",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍌",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "⚽",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Aceasta e mingea!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Mingea e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Gooool! GHI e {fericit|fericită}",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.35,
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "⚽",
+       "x": 0.82,
+       "y": 0.62,
+       "s": 0.07,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Bate palma cu ursulețul",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35,
+      "face": "happy",
+      "puff": "hearts"
+     },
+     "props": [
+      {
+       "e": "🐻",
+       "x": [
+        0.75,
+        0.55
+       ],
+       "y": 0.72,
+       "s": 0.18,
+       "m": "hop"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Sari ca GHI: hop, hop!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.35,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "După joacă bem apă. Glu-glu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "hold": "🥤",
+      "face": "calm"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "petrecere",
+   "title": "GHI la petrecere",
+   "set": "party",
+   "learn": "Spunem „La mulți ani!” și împărțim cu prietenii.",
+   "beats": [
+    {
+     "say": "Azi e petrecere! GHI are 2 anișori",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.35,
+      "hat": "party"
+     },
+     "props": [
+      {
+       "e": "🎈",
+       "x": 0.7,
+       "y": 0.35,
+       "s": 0.12,
+       "m": "float"
+      },
+      {
+       "e": "🎈",
+       "x": 0.85,
+       "y": 0.45,
+       "s": 0.1,
+       "m": "float"
+      }
+     ]
+    },
+    {
+     "say": "Suflăm în lumânări: unu, doi!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "hat": "party",
+      "face": "wow",
+      "puff": "steam"
+     },
+     "props": [
+      {
+       "e": "🎂",
+       "x": 0.62,
+       "y": 0.66,
+       "s": 0.16,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Care e tortul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌙",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🎈",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🎂",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Acesta e tortul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Tortul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "La mulți ani, GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "hat": "party",
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "🎉",
+       "x": 0.2,
+       "y": 0.3,
+       "s": 0.12,
+       "m": "pulse"
+      },
+      {
+       "e": "🎊",
+       "x": 0.8,
+       "y": [
+        0.1,
+        0.5
+       ],
+       "s": 0.1,
+       "m": "fall"
+      }
+     ]
+    },
+    {
+     "say": "O felie, două felii, trei felii de tort",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "hat": "party"
+     },
+     "props": [
+      {
+       "e": "🐰",
+       "x": 0.72,
+       "y": 0.7,
+       "s": 0.16,
+       "m": "hop"
+      },
+      {
+       "e": "🐻",
+       "x": 0.88,
+       "y": 0.7,
+       "s": 0.16,
+       "m": "hop"
+      }
+     ],
+     "count": {
+      "items": [
+       "🍰",
+       "🍰",
+       "🍰"
+      ],
+      "y": 0.4,
+      "s": 0.08,
+      "x": [
+       0.45,
+       0.75
+      ]
+     }
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.45,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Și acum dansăm cu toții!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.45,
+      "hat": "party",
+      "puff": "notes"
+     },
+     "props": [
+      {
+       "e": "🐰",
+       "x": 0.72,
+       "y": 0.7,
+       "s": 0.16,
+       "m": "hop"
+      },
+      {
+       "e": "🐻",
+       "x": 0.88,
+       "y": 0.7,
+       "s": 0.16,
+       "m": "hop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "joaca",
+   "title": "GHI la joacă",
+   "set": "meadow",
+   "learn": "Culorile: roșu, albastru, galben și verde.",
+   "beats": [
+    {
+     "say": "GHI aleargă prin iarbă",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.05,
+       0.5
+      ],
+      "face": "happy"
+     },
+     "props": [],
+     "cam": [
+      1.0,
+      1.05
+     ]
+    },
+    {
+     "say": "Sare peste o băltoacă: hop!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.4,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "💧",
+       "x": 0.5,
+       "y": 0.86,
+       "s": 0.06,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Care e cubul roșu? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🟥",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍎",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌻",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Acesta e cubul roșu!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Cubul roșu e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Construiește un turn: roșu, albastru, galben, verde",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.3,
+      "face": "calm"
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "🟥",
+       "🟦",
+       "🟨",
+       "🟩"
+      ],
+      "y": 0.55,
+      "s": 0.09,
+      "x": [
+       0.45,
+       0.85
+      ],
+      "labels": [
+       "roșu",
+       "albastru",
+       "galben",
+       "verde"
+      ]
+     }
+    },
+    {
+     "say": "Turnul a căzut! Nu-i nimic, îl facem din nou",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🟥",
+       "x": [
+        0.55,
+        0.5
+       ],
+       "y": [
+        0.5,
+        0.86
+       ],
+       "s": 0.08,
+       "m": "fall"
+      },
+      {
+       "e": "🟦",
+       "x": [
+        0.7,
+        0.75
+       ],
+       "y": [
+        0.5,
+        0.86
+       ],
+       "s": 0.08,
+       "m": "fall"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Bate din palme cu GHI: clap, clap, clap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Bravo, GHI! Ai fost {răbdător|răbdătoare}",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "puff": "stars"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "gradinita",
+   "title": "GHI la grădiniță",
+   "set": "kinder",
+   "learn": "Spunem „Bună dimineața!” și ne spălăm pe mâini înainte de masă.",
+   "beats": [
+    {
+     "say": "GHI ajunge la grădiniță cu ghiozdanul",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.05,
+       0.3
+      ],
+      "hold": "🎒"
+     },
+     "props": []
+    },
+    {
+     "say": "Bună dimineața, doamna educatoare!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "educatoare",
+       "x": 0.75,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Învățăm literele: A, B, C",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.25,
+      "face": "wow"
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "A",
+       "B",
+       "C"
+      ],
+      "y": 0.36,
+      "s": 0.12,
+      "x": [
+       0.45,
+       0.75
+      ]
+     }
+    },
+    {
+     "say": "Care e ghiozdanul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.25,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🍌",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🎒",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Acesta e ghiozdanul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Ghiozdanul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Desenăm un soare galben",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.3,
+      "hold": "🖍️",
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🌞",
+       "x": 0.65,
+       "y": 0.5,
+       "s": 0.16,
+       "m": "grow"
+      }
+     ]
+    },
+    {
+     "say": "Ne spălăm pe mânuțe înainte de masă",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "hold": "🧼",
+      "puff": "bubbles"
+     },
+     "props": []
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "La revedere! Ne vedem mâine",
+     "sec": 8,
+     "ghi": {
+      "pose": "wave",
+      "x": [
+       0.35,
+       0.15
+      ],
+      "face": "happy"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "stetoscop",
+   "title": "GHI și stetoscopul",
+   "set": "room",
+   "learn": "Inima face bum-bum. Respirăm adânc și suntem sănătoși.",
+   "beats": [
+    {
+     "say": "GHI a găsit trusa de doctor",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🧰",
+       "x": 0.5,
+       "y": 0.8,
+       "s": 0.1,
+       "m": "pulse"
+      }
+     ]
+    },
+    {
+     "say": "Ascultă inima ursulețului: bum-bum",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.35,
+      "hold": "🩺"
+     },
+     "props": [
+      {
+       "e": "🧸",
+       "x": 0.62,
+       "y": 0.7,
+       "s": 0.2,
+       "m": "none"
+      },
+      {
+       "e": "❤️",
+       "x": 0.62,
+       "y": 0.44,
+       "s": 0.08,
+       "m": "beat"
+      }
+     ]
+    },
+    {
+     "say": "Care e ursulețul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🧸",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🎈",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐕",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Acesta e ursulețul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Ursulețul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Acum ascultă inima lui GHI: bum-bum",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "hold": "🩺",
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "❤️",
+       "x": 0.5,
+       "y": 0.4,
+       "s": 0.09,
+       "m": "beat"
+      }
+     ]
+    },
+    {
+     "say": "Respirăm adânc: inspiră… expiră…",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "face": "calm",
+      "puff": "steam"
+     },
+     "props": []
+    },
+    {
+     "say": "Acum tu! Sari ca GHI: hop, hop!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.4,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Ursulețul e sănătos! Bravo, {doctore|doctoriță} GHI",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "puff": "hearts"
+     },
+     "props": [
+      {
+       "e": "🧸",
+       "x": 0.65,
+       "y": 0.7,
+       "s": 0.2,
+       "m": "hop"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stele",
+   "title": "GHI se uită la stele",
+   "set": "night",
+   "learn": "Noaptea vedem Luna și stelele. Le-am numărat până la cinci.",
+   "beats": [
+    {
+     "say": "S-a făcut seară. GHI iese afară",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.05,
+       0.35
+      ],
+      "face": "calm"
+     },
+     "props": []
+    },
+    {
+     "say": "Uite Luna! E mare și rotundă",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "wow",
+      "think": "🌙"
+     },
+     "props": []
+    },
+    {
+     "say": "Care e steluța? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐈",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "⭐",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌻",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Aceasta e steluța!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Steluța e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Una, două, trei, patru, cinci stele!",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "happy"
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "⭐",
+       "⭐",
+       "⭐",
+       "⭐",
+       "⭐"
+      ],
+      "y": 0.22,
+      "s": 0.07,
+      "x": [
+       0.3,
+       0.75
+      ]
+     }
+    },
+    {
+     "say": "O stea căzătoare! Ne punem o dorință",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌠",
+       "x": [
+        0.95,
+        0.25
+       ],
+       "y": [
+        0.1,
+        0.35
+       ],
+       "s": 0.1,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Mângâie-ți burtica, așa cum face GHI",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "calm",
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Noapte bună, stele!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35,
+      "face": "sleepy",
+      "puff": "stars"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "baita",
+   "title": "GHI la băiță",
+   "set": "bath",
+   "learn": "Ne spălăm cu apă și săpun ca să fim curați.",
+   "beats": [
+    {
+     "say": "E ora de băiță!",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.1,
+       0.45
+      ],
+      "face": "happy"
+     },
+     "props": []
+    },
+    {
+     "say": "GHI intră în cadă: plici-plici",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.5,
+      "y": 0.84,
+      "face": "happy",
+      "puff": "bubbles"
+     },
+     "props": []
+    },
+    {
+     "say": "Care e săpunul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🧼",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌻",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🚗",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Acesta e săpunul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Săpunul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Săpun pe mânuțe, pe burtică, pe picioare",
+     "sec": 12,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.5,
+      "y": 0.84,
+      "hold": "🧼",
+      "puff": "bubbles"
+     },
+     "props": []
+    },
+    {
+     "say": "Rățușca se joacă și ea",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.5,
+      "y": 0.84,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🦆",
+       "x": [
+        0.7,
+        0.6
+       ],
+       "y": 0.74,
+       "s": 0.08,
+       "m": "bob",
+       "front": true
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Suflă ușor, ca {un_dragon} cuminte: fuuu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "calm",
+      "puff": "steam"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Ne ștergem cu prosopul. Curat și parfumat!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3,
+      "puff": "stars"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "olita",
+   "title": "GHI la oliță",
+   "set": "bathroom",
+   "learn": "Când trebuie la oliță spunem „pipi!”, apoi ne spălăm pe mâini.",
+   "beats": [
+    {
+     "say": "GHI simte că trebuie la oliță",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow",
+      "think": "🚽"
+     },
+     "props": []
+    },
+    {
+     "say": "Spune tare: mami, pipi!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": []
+    },
+    {
+     "say": "Se așază pe oliță. Bravo!",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.5,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🚽",
+       "x": 0.5,
+       "y": 0.82,
+       "s": 0.14,
+       "m": "none",
+       "front": true
+      }
+     ]
+    },
+    {
+     "say": "Care e săpunul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🧼",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍌",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Acesta e săpunul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Săpunul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Tragem apa: fâșșș!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚽",
+       "x": 0.55,
+       "y": 0.82,
+       "s": 0.14,
+       "m": "none"
+      },
+      {
+       "e": "💧",
+       "x": 0.55,
+       "y": [
+        0.65,
+        0.8
+       ],
+       "s": 0.05,
+       "m": "fall"
+      }
+     ]
+    },
+    {
+     "say": "Și ne spălăm pe mânuțe cu săpun",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.7,
+      "hold": "🧼",
+      "puff": "bubbles"
+     },
+     "props": []
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.5,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Ce mare e GHI!",
+     "sec": 8,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.5,
+      "puff": "stars"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "animalute",
+   "title": "GHI și animăluțele",
+   "set": "farm",
+   "learn": "Mângâiem animăluțele ușor și știm cum fac ele.",
+   "beats": [
+    {
+     "say": "GHI merge la fermă",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.05,
+       0.3
+      ],
+      "face": "happy"
+     },
+     "props": []
+    },
+    {
+     "say": "Vaca face muuu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🐄",
+       "x": 0.6,
+       "y": 0.7,
+       "s": 0.24,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Oița face beee!",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🐑",
+       "x": 0.6,
+       "y": 0.72,
+       "s": 0.2,
+       "m": "hop"
+      }
+     ]
+    },
+    {
+     "say": "Care e oița? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐑",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍎",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌻",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Aceasta e oița!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Oița e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Pisica face miau! O mângâiem ușor",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.35,
+      "face": "calm",
+      "puff": "hearts"
+     },
+     "props": [
+      {
+       "e": "🐈",
+       "x": 0.58,
+       "y": 0.78,
+       "s": 0.16,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Cățelul face ham-ham!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.35
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.6,
+       "y": 0.76,
+       "s": 0.18,
+       "m": "hop"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Sari ca GHI: hop, hop!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.4,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Cu grijă și cu drag. Bravo, GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.4,
+      "puff": "hearts"
+     },
+     "props": [
+      {
+       "e": "🐄",
+       "x": 0.75,
+       "y": 0.7,
+       "s": 0.16,
+       "m": "none"
+      },
+      {
+       "e": "🐑",
+       "x": 0.88,
+       "y": 0.74,
+       "s": 0.13,
+       "m": "none"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bicicleta",
+   "title": "GHI pe bicicletă",
+   "set": "park",
+   "learn": "Purtăm cască și ne oprim la culoarea roșie.",
+   "beats": [
+    {
+     "say": "GHI își pune casca",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "hat": "helmet",
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🚲",
+       "x": 0.55,
+       "y": 0.8,
+       "s": 0.18,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Pedalăm: unu-doi, unu-doi",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": [
+       0.1,
+       0.45
+      ],
+      "y": 0.78,
+      "hat": "helmet"
+     },
+     "props": [
+      {
+       "e": "🚲",
+       "x": [
+        0.1,
+        0.45
+       ],
+       "y": 0.82,
+       "s": 0.2,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Care e bicicleta? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐰",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🚲",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌙",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Aceasta e bicicleta!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Bicicleta e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Roșu! Ne oprim",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.45,
+      "y": 0.78,
+      "hat": "helmet",
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚲",
+       "x": 0.45,
+       "y": 0.82,
+       "s": 0.2,
+       "m": "none"
+      },
+      {
+       "e": "🔴",
+       "x": 0.75,
+       "y": 0.45,
+       "s": 0.08,
+       "m": "pulse"
+      }
+     ]
+    },
+    {
+     "say": "Verde! Pornim din nou",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": [
+       0.45,
+       0.85
+      ],
+      "y": 0.78,
+      "hat": "helmet",
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🚲",
+       "x": [
+        0.45,
+        0.85
+       ],
+       "y": 0.82,
+       "s": 0.2,
+       "m": "none"
+      },
+      {
+       "e": "🟢",
+       "x": 0.75,
+       "y": 0.45,
+       "s": 0.08,
+       "m": "pulse"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.5,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Am ajuns! Bravo, GHI",
+     "sec": 8,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.5,
+      "hat": "helmet",
+      "puff": "stars"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "plaja",
+   "title": "GHI la plajă",
+   "set": "beach",
+   "learn": "Ne dăm cu cremă de soare și bem apă.",
+   "beats": [
+    {
+     "say": "GHI se dă cu cremă de soare",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "hold": "🧴",
+      "face": "calm"
+     },
+     "props": []
+    },
+    {
+     "say": "Facem un castel de nisip",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🏰",
+       "x": 0.55,
+       "y": 0.78,
+       "s": 0.16,
+       "m": "grow"
+      }
+     ]
+    },
+    {
+     "say": "Care e castelul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🍎",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🏰",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌻",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Acesta e castelul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Castelul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Valurile vin încet: șuuu…",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌊",
+       "x": [
+        0.9,
+        0.7
+       ],
+       "y": 0.7,
+       "s": 0.14,
+       "m": "bob"
+      }
+     ]
+    },
+    {
+     "say": "Găsim scoici: una, două, trei",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "🐚",
+       "🐚",
+       "🐚"
+      ],
+      "y": 0.86,
+      "s": 0.07,
+      "x": [
+       0.5,
+       0.8
+      ]
+     }
+    },
+    {
+     "say": "Acum tu! Bate din palme cu GHI: clap, clap, clap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.35,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Bem apă la umbră. Glu-glu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.35,
+      "hold": "🥤",
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "⛱️",
+       "x": 0.4,
+       "y": 0.55,
+       "s": 0.22,
+       "m": "none"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gateste",
+   "title": "GHI gătește",
+   "set": "kitchen",
+   "learn": "Fructele ne fac puternici: măr, banană, pară.",
+   "beats": [
+    {
+     "say": "GHI e bucătar azi",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "hold": "🥄",
+      "face": "happy"
+     },
+     "props": []
+    },
+    {
+     "say": "Măr, banană, pară",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "🍎",
+       "🍌",
+       "🍐"
+      ],
+      "y": 0.5,
+      "s": 0.1,
+      "x": [
+       0.5,
+       0.85
+      ],
+      "labels": [
+       "măr",
+       "banană",
+       "pară"
+      ]
+     }
+    },
+    {
+     "say": "Care e mărul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌻",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌙",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍎",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Acesta e mărul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Mărul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Le punem în castron",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.35
+     },
+     "props": [
+      {
+       "e": "🥣",
+       "x": 0.6,
+       "y": 0.66,
+       "s": 0.12,
+       "m": "none"
+      },
+      {
+       "e": "🍎",
+       "x": 0.6,
+       "y": [
+        0.4,
+        0.62
+       ],
+       "s": 0.06,
+       "m": "fall"
+      }
+     ]
+    },
+    {
+     "say": "Amestecăm: învârte, învârte",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "hold": "🥄"
+     },
+     "props": [
+      {
+       "e": "🥣",
+       "x": 0.6,
+       "y": 0.66,
+       "s": 0.12,
+       "m": "wiggle"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.4,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Gata salata de fructe! Poftă bună",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "puff": "hearts"
+     },
+     "props": [
+      {
+       "e": "🥗",
+       "x": 0.65,
+       "y": 0.62,
+       "s": 0.14,
+       "m": "pulse"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "somn",
+   "title": "GHI la somn",
+   "set": "bedroom",
+   "learn": "Seara ne spălăm pe dinți, citim o poveste și dormim.",
+   "beats": [
+    {
+     "say": "S-a făcut seară. GHI se spală pe dinți",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "hold": "🪥",
+      "face": "calm",
+      "puff": "bubbles"
+     },
+     "props": []
+    },
+    {
+     "say": "Mami citește o poveste",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.45,
+      "y": 0.72,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "📖",
+       "x": 0.6,
+       "y": 0.55,
+       "s": 0.1,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Care e cartea? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "📖",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐰",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Aceasta e cartea!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Cartea e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "GHI cască: aaah…",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.45,
+      "y": 0.72,
+      "face": "sleepy",
+      "puff": "steam"
+     },
+     "props": []
+    },
+    {
+     "say": "Ursulețul vine și el în pat",
+     "sec": 10,
+     "ghi": {
+      "pose": "sleep",
+      "x": 0.45,
+      "y": 0.72
+     },
+     "props": [
+      {
+       "e": "🧸",
+       "x": 0.58,
+       "y": 0.66,
+       "s": 0.1,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Suflă ușor, ca {un_dragon} cuminte: fuuu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.45,
+      "face": "calm",
+      "puff": "steam"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Noapte bună, GHI",
+     "sec": 14,
+     "ghi": {
+      "pose": "sleep",
+      "x": 0.45,
+      "y": 0.72,
+      "puff": "zzz"
+     },
+     "props": [
+      {
+       "e": "🧸",
+       "x": 0.58,
+       "y": 0.66,
+       "s": 0.1,
+       "m": "none"
+      }
+     ],
+     "cam": [
+      1.05,
+      1.15
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zapada",
+   "title": "GHI la zăpadă",
+   "set": "snow",
+   "learn": "Iarna ne îmbrăcăm gros: căciulă, fular și mănuși.",
+   "beats": [
+    {
+     "say": "Ninge! Fulgi mari de zăpadă",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "wow"
+     },
+     "props": []
+    },
+    {
+     "say": "Căciula, fularul și mănușile",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "hat": "beanie",
+      "face": "happy"
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "🧣",
+       "🧤",
+       "🧤"
+      ],
+      "y": 0.42,
+      "s": 0.09,
+      "x": [
+       0.55,
+       0.85
+      ],
+      "labels": [
+       "fular",
+       "mănușă",
+       "mănușă"
+      ]
+     }
+    },
+    {
+     "say": "Care e fularul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🧣",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐰",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Acesta e fularul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Fularul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Facem un om de zăpadă",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3,
+      "hat": "beanie"
+     },
+     "props": [
+      {
+       "e": "☃️",
+       "x": 0.62,
+       "y": 0.68,
+       "s": 0.24,
+       "m": "grow"
+      }
+     ]
+    },
+    {
+     "say": "Ne dăm cu sania: uiii!",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": [
+       0.15,
+       0.8
+      ],
+      "y": 0.8,
+      "hat": "beanie",
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🛷",
+       "x": [
+        0.15,
+        0.8
+       ],
+       "y": 0.84,
+       "s": 0.16,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.5,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Brrr! Acasă la căldură",
+     "sec": 8,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.5,
+      "hat": "beanie",
+      "puff": "steam"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "dinti",
+   "title": "GHI se spală pe dinți",
+   "set": "bathroom",
+   "learn": "Ne spălăm pe dinți dimineața și seara.",
+   "beats": [
+    {
+     "say": "Puțină pastă pe periuță",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "hold": "🪥",
+      "face": "wow"
+     },
+     "props": []
+    },
+    {
+     "say": "Sus-jos, sus-jos",
+     "sec": 12,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.4,
+      "hold": "🪥",
+      "puff": "bubbles"
+     },
+     "props": []
+    },
+    {
+     "say": "Care e periuța? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🎈",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐕",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🪥",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Aceasta e periuța!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Periuța e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Și dinții din spate: stânga, dreapta",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.4,
+      "hold": "🪥",
+      "puff": "bubbles",
+      "flip": true
+     },
+     "props": []
+    },
+    {
+     "say": "Clătim cu apă: gâl-gâl",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "face": "calm",
+      "puff": "bubbles"
+     },
+     "props": []
+    },
+    {
+     "say": "Acum tu! Suflă ușor, ca {un_dragon} cuminte: fuuu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "face": "calm",
+      "puff": "steam"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Zâmbet strălucitor!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "✨",
+       "x": 0.48,
+       "y": 0.4,
+       "s": 0.07,
+       "m": "pulse"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "parc",
+   "title": "GHI în parc",
+   "set": "park",
+   "learn": "Facem cu rândul și ne ținem de mână la stradă.",
+   "beats": [
+    {
+     "say": "GHI se dă în leagăn: sus și jos",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.35,
+      "y": 0.74,
+      "m": "swing",
+      "face": "happy"
+     },
+     "props": []
+    },
+    {
+     "say": "Iepurașul vrea și el. Facem cu rândul",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🐰",
+       "x": 0.5,
+       "y": 0.72,
+       "s": 0.16,
+       "m": "hop"
+      }
+     ]
+    },
+    {
+     "say": "Care e iepurașul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌙",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐕",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐰",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Acesta e iepurașul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Iepurașul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Hrănim porumbeii: unu, doi, trei",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "🐦",
+       "🐦",
+       "🐦"
+      ],
+      "y": 0.84,
+      "s": 0.07,
+      "x": [
+       0.5,
+       0.8
+      ]
+     }
+    },
+    {
+     "say": "La stradă ne ținem de mână",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.2,
+       0.5
+      ],
+      "face": "calm"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.3,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.45,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Ce zi frumoasă!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.45,
+      "puff": "hearts"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "trenulet",
+   "title": "GHI cu trenulețul",
+   "set": "meadow",
+   "learn": "Trenul face ciu-ciu, iar vagoanele au culori.",
+   "beats": [
+    {
+     "say": "Vine trenulețul: ciu-ciu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.2,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚂",
+       "x": [
+        1.1,
+        0.6
+       ],
+       "y": 0.78,
+       "s": 0.18,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Vagonul roșu, albastru și galben",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.2,
+      "face": "happy"
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "🟥",
+       "🟦",
+       "🟨"
+      ],
+      "y": 0.8,
+      "s": 0.1,
+      "x": [
+       0.45,
+       0.85
+      ],
+      "labels": [
+       "roșu",
+       "albastru",
+       "galben"
+      ]
+     }
+    },
+    {
+     "say": "Care e cubul roșu? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.2,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌻",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🟥",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🚗",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Acesta e cubul roșu!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Cubul roșu e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "GHI urcă în tren",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": [
+       0.2,
+       0.5
+      ],
+      "y": 0.72,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🚂",
+       "x": 0.65,
+       "y": 0.78,
+       "s": 0.18,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Pornim! Ciu-ciu, ciu-ciu",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": [
+       0.5,
+       0.9
+      ],
+      "y": 0.72,
+      "face": "happy",
+      "puff": "steam"
+     },
+     "props": [
+      {
+       "e": "🚂",
+       "x": [
+        0.65,
+        1.05
+       ],
+       "y": 0.78,
+       "s": 0.18,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Sari ca GHI: hop, hop!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.5,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Am ajuns. Mulțumim, trenulețule!",
+     "sec": 8,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.5,
+      "face": "happy"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "cumparaturi",
+   "title": "GHI la cumpărături",
+   "set": "shop",
+   "learn": "La magazin alegem, plătim și spunem „mulțumesc”.",
+   "beats": [
+    {
+     "say": "GHI merge la magazin cu coșulețul",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.05,
+       0.3
+      ],
+      "hold": "🧺"
+     },
+     "props": []
+    },
+    {
+     "say": "Mere, lapte și pâine",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "🍎",
+       "🥛",
+       "🍞"
+      ],
+      "y": 0.5,
+      "s": 0.1,
+      "x": [
+       0.5,
+       0.85
+      ],
+      "labels": [
+       "mere",
+       "lapte",
+       "pâine"
+      ]
+     }
+    },
+    {
+     "say": "Care e mărul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🍎",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "⭐",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🚗",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Acesta e mărul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Mărul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Plătim la casă",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.4,
+      "hold": "🪙",
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🧑‍💼",
+       "x": 0.75,
+       "y": 0.62,
+       "s": 0.26,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Mulțumesc! La revedere!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.4,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🧑‍💼",
+       "x": 0.75,
+       "y": 0.62,
+       "s": 0.26,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.4,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Acasă cu cumpărăturile",
+     "sec": 8,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.4,
+       0.9
+      ],
+      "hold": "🧺",
+      "face": "happy"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "plantam",
+   "title": "GHI plantează o floare",
+   "set": "garden",
+   "learn": "Plantele au nevoie de apă și de soare.",
+   "beats": [
+    {
+     "say": "Săpăm o groapă mică",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🕳️",
+       "x": 0.5,
+       "y": 0.8,
+       "s": 0.08,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Punem sămânța",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌰",
+       "x": 0.5,
+       "y": [
+        0.6,
+        0.8
+       ],
+       "s": 0.05,
+       "m": "fall"
+      }
+     ]
+    },
+    {
+     "say": "Care e soarele? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌙",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🎈",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌞",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Acesta e soarele!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Soarele e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Udăm: pic, pic, pic",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "hold": "🚿"
+     },
+     "props": [
+      {
+       "e": "💧",
+       "x": 0.5,
+       "y": [
+        0.6,
+        0.8
+       ],
+       "s": 0.04,
+       "m": "fall"
+      }
+     ]
+    },
+    {
+     "say": "Soarele o încălzește",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🌞",
+       "x": 0.75,
+       "y": 0.18,
+       "s": 0.14,
+       "m": "pulse"
+      },
+      {
+       "e": "🌱",
+       "x": 0.5,
+       "y": 0.78,
+       "s": 0.06,
+       "m": "grow"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Bate din palme cu GHI: clap, clap, clap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "A crescut o floare!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3,
+      "puff": "hearts"
+     },
+     "props": [
+      {
+       "e": "🌻",
+       "x": 0.5,
+       "y": 0.7,
+       "s": 0.16,
+       "m": "grow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ploaie",
+   "title": "GHI în ploaie",
+   "set": "rain",
+   "learn": "Când plouă luăm umbrela și cizmulițele.",
+   "beats": [
+    {
+     "say": "Plouă! Pic-pic-pic",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "wow"
+     },
+     "props": []
+    },
+    {
+     "say": "Punem cizmulițele",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🥾",
+       "x": 0.55,
+       "y": 0.84,
+       "s": 0.08,
+       "m": "pulse"
+      }
+     ]
+    },
+    {
+     "say": "Care e umbrela? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚗",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "☂️",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "⭐",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Aceasta e umbrela!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Umbrela e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Și luăm umbrela",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.2,
+       0.4
+      ],
+      "hold": "☂️",
+      "face": "happy"
+     },
+     "props": []
+    },
+    {
+     "say": "Sărim în băltoacă: pleosc!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.45,
+      "hold": "☂️",
+      "puff": "bubbles"
+     },
+     "props": [
+      {
+       "e": "💦",
+       "x": 0.45,
+       "y": 0.86,
+       "s": 0.08,
+       "m": "pulse"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.45,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "A ieșit curcubeul!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.45,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌈",
+       "x": 0.6,
+       "y": 0.3,
+       "s": 0.24,
+       "m": "grow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bunica",
+   "title": "GHI și bunica",
+   "set": "room",
+   "learn": "O ajutăm pe bunica și îi spunem „te iubesc”.",
+   "beats": [
+    {
+     "say": "Vine bunica în vizită!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "bunica",
+       "x": 0.95,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "GHI o îmbrățișează",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.5,
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "bunica",
+       "x": 0.68,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Care e biscuitul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🎈",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐕",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍪",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Acesta e biscuitul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Biscuitul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Facem biscuiți: unu, doi, trei, patru",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "🍪",
+       "🍪",
+       "🍪",
+       "🍪"
+      ],
+      "y": 0.42,
+      "s": 0.07,
+      "x": [
+       0.3,
+       0.65
+      ]
+     },
+     "people": [
+      {
+       "who": "bunica",
+       "x": 0.8,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Bunica citește o poveste",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.45,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "📖",
+       "x": 0.57,
+       "y": 0.56,
+       "s": 0.08,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "bunica",
+       "x": 0.7,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Sari ca GHI: hop, hop!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.4,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "bunica",
+       "x": 0.7,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Te iubesc, bunico!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.4,
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "bunica",
+       "x": 0.7,
+       "pose": "stand"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "baloane",
+   "title": "GHI și baloanele",
+   "set": "meadow",
+   "learn": "Culorile baloanelor: roșu, galben, albastru și verde.",
+   "beats": [
+    {
+     "say": "GHI are baloane colorate",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": []
+    },
+    {
+     "say": "Roșu, galben, albastru, verde",
+     "sec": 12,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "🔴",
+       "🟡",
+       "🔵",
+       "🟢"
+      ],
+      "y": 0.32,
+      "s": 0.1,
+      "x": [
+       0.45,
+       0.85
+      ],
+      "labels": [
+       "roșu",
+       "galben",
+       "albastru",
+       "verde"
+      ]
+     }
+    },
+    {
+     "say": "Care e bulina roșie? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐈",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍌",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🔴",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Aceasta e bulina roșie!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Bulina roșie e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Vântul suflă: fâșșș",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow",
+      "puff": "steam"
+     },
+     "props": [
+      {
+       "e": "🎈",
+       "x": [
+        0.6,
+        0.7
+       ],
+       "y": [
+        0.5,
+        0.15
+       ],
+       "s": 0.1,
+       "m": "float"
+      }
+     ]
+    },
+    {
+     "say": "Un balon zboară sus, sus!",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🎈",
+       "x": 0.7,
+       "y": [
+        0.4,
+        0.05
+       ],
+       "s": 0.08,
+       "m": "float"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.3,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Pa-pa, balonule!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "muzica",
+   "title": "GHI face muzică",
+   "set": "stage",
+   "learn": "Muzica poate fi tare sau încet.",
+   "beats": [
+    {
+     "say": "GHI are o tobă",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "hold": "🥁",
+      "face": "happy"
+     },
+     "props": []
+    },
+    {
+     "say": "Tare: BUM! BUM!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.35,
+      "hold": "🥁",
+      "face": "wow",
+      "puff": "notes"
+     },
+     "props": []
+    },
+    {
+     "say": "Care e toba? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌙",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🥁",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🎈",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Aceasta e toba!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Toba e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Încet: bum… bum…",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "hold": "🥁",
+      "face": "calm",
+      "puff": "notes"
+     },
+     "props": []
+    },
+    {
+     "say": "Acum la pian: ding-ding",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.35,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [
+      {
+       "e": "🎹",
+       "x": 0.6,
+       "y": 0.74,
+       "s": 0.16,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Bate din palme cu GHI: clap, clap, clap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Aplauze! Bravo, GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "👏",
+       "x": 0.75,
+       "y": 0.5,
+       "s": 0.1,
+       "m": "pulse"
+      },
+      {
+       "e": "👏",
+       "x": 0.88,
+       "y": 0.6,
+       "s": 0.08,
+       "m": "pulse"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "forme",
+   "title": "GHI învață formele",
+   "set": "kinder",
+   "learn": "Cercul, pătratul și triunghiul.",
+   "beats": [
+    {
+     "say": "Cerc, pătrat, triunghi",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [],
+     "count": {
+      "items": [
+       "⚪",
+       "🟧",
+       "🔺"
+      ],
+      "y": 0.42,
+      "s": 0.11,
+      "x": [
+       0.5,
+       0.85
+      ],
+      "labels": [
+       "cerc",
+       "pătrat",
+       "triunghi"
+      ]
+     }
+    },
+    {
+     "say": "Soarele e un cerc",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3
+     },
+     "props": [
+      {
+       "e": "🌞",
+       "x": 0.65,
+       "y": 0.3,
+       "s": 0.16,
+       "m": "pulse"
+      }
+     ]
+    },
+    {
+     "say": "Care e soarele? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌞",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍌",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Acesta e soarele!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Soarele e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Fereastra e un pătrat",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3
+     },
+     "props": [
+      {
+       "e": "🟧",
+       "x": 0.65,
+       "y": 0.35,
+       "s": 0.12,
+       "m": "pulse"
+      }
+     ]
+    },
+    {
+     "say": "Acoperișul e un triunghi",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3
+     },
+     "props": [
+      {
+       "e": "🏠",
+       "x": 0.65,
+       "y": 0.45,
+       "s": 0.18,
+       "m": "pulse"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.4,
+      "face": "happy"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Bravo! Știi formele",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "puff": "stars"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "emotii",
+   "title": "GHI și emoțiile",
+   "set": "room",
+   "learn": "Când suntem triști ne ajută o îmbrățișare.",
+   "beats": [
+    {
+     "say": "GHI s-a jucat cu ursulețul",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.35
+     },
+     "props": [
+      {
+       "e": "🧸",
+       "x": 0.55,
+       "y": 0.7,
+       "s": 0.12,
+       "m": "hop"
+      }
+     ]
+    },
+    {
+     "say": "Ursulețul a căzut. GHI e {trist|tristă}",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "sad"
+     },
+     "props": [
+      {
+       "e": "🧸",
+       "x": 0.55,
+       "y": [
+        0.6,
+        0.84
+       ],
+       "s": 0.12,
+       "m": "fall"
+      }
+     ]
+    },
+    {
+     "say": "Care e ursulețul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🍌",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🧸",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Acesta e ursulețul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Ursulețul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "E în regulă să fim triști. Respirăm adânc",
+     "sec": 12,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.35,
+      "face": "calm",
+      "puff": "steam"
+     },
+     "props": [
+      {
+       "e": "🧸",
+       "x": 0.55,
+       "y": 0.84,
+       "s": 0.12,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "Mami {îl|o} îmbrățișează",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.4,
+      "face": "happy",
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.62,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Suflă ușor, ca {un_dragon} cuminte: fuuu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "face": "calm",
+      "puff": "steam"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Acum GHI e {bucuros|bucuroasă} din nou!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "puff": "stars",
+      "hold": "🧸"
+     },
+     "props": []
+    }
+   ]
+  },
+  {
+   "id": "zi",
+   "title": "GHI și ziua frumoasă",
+   "set": "meadow",
+   "learn": "Dimineața spunem „bună dimineața”, la prânz mâncăm și seara dormim.",
+   "beats": [
+    {
+     "say": "Bună dimineața, soare!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🌅",
+       "x": 0.7,
+       "y": 0.3,
+       "s": 0.16,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "La micul dejun: lapte și cereale",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.35,
+      "hold": "🥛"
+     },
+     "props": []
+    },
+    {
+     "say": "Care e laptele? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🍌",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🥛",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Acesta e laptele!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Laptele e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "La prânz ne jucăm afară",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.2,
+       0.6
+      ],
+      "face": "happy"
+     },
+     "props": []
+    },
+    {
+     "say": "După-amiaza mâncăm un fruct",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.5,
+      "hold": "🍎",
+      "face": "happy"
+     },
+     "props": []
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.5,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Seara spunem: noapte bună!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.5,
+      "face": "sleepy",
+      "puff": "zzz"
+     },
+     "props": [
+      {
+       "e": "🌙",
+       "x": 0.75,
+       "y": 0.2,
+       "s": 0.12,
+       "m": "none"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mami_shopping",
+   "title": "GHI cu mami la cumpărături",
+   "set": "shop",
+   "learn": "La cumpărături stăm lângă mami și spunem „mulțumesc”.",
+   "beats": [
+    {
+     "say": "Mami și GHI merg la cumpărături",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.05,
+       0.35
+      ],
+      "hold": "🧺"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": [
+        0.15,
+        0.5
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ],
+     "cam": [
+      1.0,
+      1.06
+     ]
+    },
+    {
+     "say": "Ce luăm? Mere, lapte și pâine",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.15,
+       "pose": "point",
+       "flip": false
+      }
+     ],
+     "count": {
+      "items": [
+       "🍎",
+       "🥛",
+       "🍞"
+      ],
+      "y": 0.5,
+      "s": 0.09,
+      "x": [
+       0.5,
+       0.85
+      ],
+      "labels": [
+       "mere",
+       "lapte",
+       "pâine"
+      ]
+     }
+    },
+    {
+     "say": "GHI pune mărul în coș. Bravo!",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.35,
+      "hold": "🍎"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.15,
+       "pose": "clap",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Mami ia și banane galbene",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🍌",
+       "x": 0.55,
+       "y": 0.5,
+       "s": 0.1,
+       "m": "bob"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.15,
+       "pose": "reach",
+       "hold": "🍌",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Care e banana? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "⭐",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍌",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Aceasta e banana!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Banana e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Împingem căruciorul împreună: încet, încet",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.35,
+       0.5
+      ]
+     },
+     "props": [
+      {
+       "e": "🛒",
+       "x": [
+        0.47,
+        0.62
+       ],
+       "y": 0.84,
+       "s": 0.14,
+       "m": "none",
+       "front": true
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": [
+        0.2,
+        0.35
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Mami plătește la casă",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🧑‍💼",
+       "x": 0.85,
+       "y": 0.6,
+       "s": 0.24,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.62,
+       "pose": "hold",
+       "hold": "💳"
+      }
+     ]
+    },
+    {
+     "say": "GHI spune: mulțumesc! La revedere!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.4,
+      "face": "happy",
+      "puff": "hearts"
+     },
+     "props": [
+      {
+       "e": "🧑‍💼",
+       "x": 0.85,
+       "y": 0.6,
+       "s": 0.24,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.62,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Bate din palme cu GHI: clap, clap, clap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.4,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": [
+        0.2,
+        0.65
+       ],
+       "pose": "walk",
+       "hold": "🛍️",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Acasă, cu sacoșa plină",
+     "sec": 8,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.4,
+       0.85
+      ],
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": [
+        0.2,
+        0.65
+       ],
+       "pose": "walk",
+       "hold": "🛍️",
+       "flip": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tati_tren",
+   "title": "GHI cu tati la tren",
+   "set": "station",
+   "learn": "În tren stăm cuminți și ne ținem de mână cu tati.",
+   "beats": [
+    {
+     "say": "Tati și GHI merg la gară",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.1,
+       0.35
+      ]
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": [
+        0.2,
+        0.48
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Vine trenul: ciu-ciu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚂",
+       "x": [
+        1.2,
+        0.75
+       ],
+       "y": 0.6,
+       "s": 0.16,
+       "m": "none"
+      },
+      {
+       "e": "🚃",
+       "x": [
+        1.38,
+        0.93
+       ],
+       "y": 0.6,
+       "s": 0.16,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.15,
+       "pose": "point",
+       "flip": false
+      }
+     ],
+     "cam": [
+      1.0,
+      1.05
+     ]
+    },
+    {
+     "say": "Ne ținem de mână și urcăm",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.3,
+       0.55
+      ],
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🚂",
+       "x": 0.75,
+       "y": 0.6,
+       "s": 0.16,
+       "m": "none"
+      },
+      {
+       "e": "🚃",
+       "x": 0.93,
+       "y": 0.6,
+       "s": 0.16,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": [
+        0.18,
+        0.43
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Pe geam vedem vaci și copaci",
+     "sec": 12,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.4,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐄",
+       "x": [
+        1.0,
+        -0.1
+       ],
+       "y": 0.62,
+       "s": 0.12,
+       "m": "none"
+      },
+      {
+       "e": "🌳",
+       "x": [
+        1.3,
+        0.2
+       ],
+       "y": 0.55,
+       "s": 0.16,
+       "m": "none"
+      },
+      {
+       "e": "🐑",
+       "x": [
+        1.6,
+        0.5
+       ],
+       "y": 0.64,
+       "s": 0.1,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.22,
+       "pose": "sit",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Care e văcuța? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🍎",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐄",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌻",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Aceasta e văcuța!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Văcuța e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Vine controlorul: biletul, vă rog!",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.4,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🎫",
+       "x": 0.55,
+       "y": 0.55,
+       "s": 0.08,
+       "m": "pulse"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.22,
+       "pose": "sit",
+       "hold": "🎫",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Trenul intră în tunel: e întuneric! Apoi iar e lumină",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.4,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌑",
+       "x": 0.7,
+       "y": 0.4,
+       "s": 0.16,
+       "m": "pulse"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.22,
+       "pose": "sit",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Tati, uite! Un pod!",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.4,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "🌉",
+       "x": [
+        1.1,
+        0.3
+       ],
+       "y": 0.45,
+       "s": 0.2,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.22,
+       "pose": "sit",
+       "face": "wow",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.45,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.25,
+       "pose": "wave",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Am ajuns. Mulțumim, trenule!",
+     "sec": 8,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.45,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.25,
+       "pose": "wave",
+       "flip": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tati_fotbal",
+   "title": "GHI cu tati la fotbal",
+   "set": "field",
+   "learn": "Fotbalul se joacă împreună: pasăm și ne bucurăm.",
+   "beats": [
+    {
+     "say": "Tati aduce mingea",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.25
+     },
+     "props": [
+      {
+       "e": "⚽",
+       "x": [
+        0.62,
+        0.4
+       ],
+       "y": 0.86,
+       "s": 0.06,
+       "m": "spin"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.6,
+       "pose": "walk"
+      }
+     ]
+    },
+    {
+     "say": "Tati pasează: ușor, ușor",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.25,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "⚽",
+       "x": [
+        0.55,
+        0.3
+       ],
+       "y": 0.86,
+       "s": 0.06,
+       "m": "spin"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.6,
+       "pose": "kick"
+      }
+     ]
+    },
+    {
+     "say": "GHI aleargă după minge: fuga, fuga!",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.25,
+       0.55
+      ],
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "⚽",
+       "x": [
+        0.35,
+        0.7
+       ],
+       "y": 0.86,
+       "s": 0.06,
+       "m": "spin"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.82,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Hopa! GHI a căzut. Nu-i nimic, ne ridicăm",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.55,
+      "face": "sad"
+     },
+     "props": [
+      {
+       "e": "⚽",
+       "x": 0.72,
+       "y": 0.86,
+       "s": 0.06,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.82,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Care e mingea? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "⚽",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "⭐",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍎",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Aceasta e mingea!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Mingea e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Tati {îl|o} ajută și GHI zâmbește din nou",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.55,
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.74,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "GHI șutează… gooool!",
+     "sec": 10,
+     "ghi": {
+      "pose": "kick",
+      "x": 0.28,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "⚽",
+       "x": [
+        0.32,
+        0.86
+       ],
+       "y": [
+        0.86,
+        0.62
+       ],
+       "s": 0.06,
+       "m": "spin",
+       "in": 0.25
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.55,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Tati {îl|o} ridică pe GHI pe umeri",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.45,
+      "y": 0.31,
+      "puff": "stars"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.53,
+       "pose": "carry",
+       "flip": false
+      }
+     ],
+     "cam": [
+      1.0,
+      1.03
+     ]
+    },
+    {
+     "say": "Acum tu! Sari ca GHI: hop, hop!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.55,
+       "pose": "hold",
+       "hold": "🥤"
+      }
+     ]
+    },
+    {
+     "say": "După joacă bem apă împreună",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "hold": "🥤",
+      "face": "calm"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.55,
+       "pose": "hold",
+       "hold": "🥤"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mami_prajituri",
+   "title": "GHI cu mami la prăjituri",
+   "set": "kitchen",
+   "learn": "Cuptorul e fierbinte, nu-l atingem. Prăjiturile le împărțim.",
+   "beats": [
+    {
+     "say": "Mami și GHI fac prăjituri",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.35,
+      "hat": "party"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.62,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Ouă, unt și miere",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.62,
+       "pose": "point"
+      }
+     ],
+     "count": {
+      "items": [
+       "🥚",
+       "🧈",
+       "🍯"
+      ],
+      "y": 0.4,
+      "s": 0.08,
+      "x": [
+       0.4,
+       0.7
+      ],
+      "labels": [
+       "ouă",
+       "unt",
+       "miere"
+      ]
+     }
+    },
+    {
+     "say": "Amestecăm: învârte, învârte",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "hold": "🥄"
+     },
+     "props": [
+      {
+       "e": "🥣",
+       "x": 0.48,
+       "y": 0.66,
+       "s": 0.1,
+       "m": "wiggle"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.65,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "În cuptor! Atenție, e fierbinte",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "♨️",
+       "x": 0.75,
+       "y": 0.42,
+       "s": 0.1,
+       "m": "pulse"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.62,
+       "pose": "hold",
+       "hold": "🥧"
+      }
+     ]
+    },
+    {
+     "say": "Care e oul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "⭐",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🥚",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍎",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Acesta e oul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Oul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Așteptăm și numărăm până la cinci",
+     "sec": 12,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.3,
+      "face": "calm"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.66,
+       "pose": "sit"
+      }
+     ],
+     "count": {
+      "items": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5"
+      ],
+      "y": 0.38,
+      "s": 0.08,
+      "x": [
+       0.3,
+       0.75
+      ]
+     }
+    },
+    {
+     "say": "Miroase a prăjituri! Mmm!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow",
+      "puff": "hearts"
+     },
+     "props": [
+      {
+       "e": "♨️",
+       "x": 0.75,
+       "y": 0.42,
+       "s": 0.1,
+       "m": "float"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.62,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Gata! Una, două, trei prăjituri",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3,
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.68,
+       "pose": "hold",
+       "hold": "🧁"
+      }
+     ],
+     "count": {
+      "items": [
+       "🧁",
+       "🧁",
+       "🧁"
+      ],
+      "y": 0.42,
+      "s": 0.08,
+      "x": [
+       0.4,
+       0.58
+      ]
+     }
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.3,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.55,
+       "pose": "stand",
+       "hold": "🧁"
+      },
+      {
+       "who": "tati",
+       "x": 0.85,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Una pentru GHI, una pentru mami, una pentru tati",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.3,
+      "hold": "🧁"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.55,
+       "pose": "stand",
+       "hold": "🧁"
+      },
+      {
+       "who": "tati",
+       "x": 0.85,
+       "pose": "wave"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tati_calculator",
+   "title": "GHI și tati la calculator",
+   "set": "office",
+   "learn": "Când tati lucrează, așteptăm puțin. Apoi ne jucăm împreună, iar ochii fac pauză.",
+   "beats": [
+    {
+     "say": "Tati lucrează la calculator",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.18,
+      "face": "calm"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.62,
+       "pose": "sit",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "GHI vine încet: tati, ce faci?",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.18,
+       0.4
+      ],
+      "face": "wow",
+      "think": "💻"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.62,
+       "pose": "sit",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Tati îi arată culorile pe ecran",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.42,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.62,
+       "pose": "point",
+       "flip": false
+      }
+     ],
+     "count": {
+      "items": [
+       "🔴",
+       "🟢",
+       "🔵"
+      ],
+      "y": 0.36,
+      "s": 0.07,
+      "x": [
+       0.62,
+       0.8
+      ],
+      "labels": [
+       "roșu",
+       "verde",
+       "albastru"
+      ]
+     }
+    },
+    {
+     "say": "GHI apasă o tastă: A!",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.45,
+      "face": "wow",
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "A",
+       "x": 0.71,
+       "y": 0.42,
+       "s": 0.08,
+       "m": "pulse"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.62,
+       "pose": "clap",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Care e bulina roșie? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐰",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🔴",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Aceasta e bulina roșie!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Bulina roșie e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Pe ecran apare un cățel: ham-ham!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.45,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.71,
+       "y": 0.42,
+       "s": 0.08,
+       "m": "hop"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.62,
+       "pose": "point",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Tati spune: după un minut închidem, ca ochii să se odihnească",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.42,
+      "face": "calm"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.62,
+       "pose": "sit",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Gata, calculatorul ia pauză. Ochii se odihnesc",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.42,
+      "face": "calm"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.6,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Suflă ușor, ca {un_dragon} cuminte: fuuu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "calm",
+      "puff": "steam"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.65,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Și acum ne jucăm de-a v-ați ascunselea!",
+     "sec": 8,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3,
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.65,
+       "pose": "wave"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tati_bicicleta",
+   "title": "GHI cu tati pe bicicletă",
+   "set": "park",
+   "learn": "Pe bicicletă purtăm cască, iar la semafor roșu stăm.",
+   "beats": [
+    {
+     "say": "Tati scoate bicicleta cea mică",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚲",
+       "x": 0.5,
+       "y": 0.84,
+       "s": 0.12,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.72,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Întâi punem casca. Siguranța înainte de toate!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "face": "happy",
+      "hold": "⛑️"
+     },
+     "props": [
+      {
+       "e": "🚲",
+       "x": 0.5,
+       "y": 0.84,
+       "s": 0.12,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.72,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Tati ține bicicleta, GHI pedalează",
+     "sec": 12,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.25,
+       0.5
+      ],
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🚲",
+       "x": [
+        0.3,
+        0.55
+       ],
+       "y": 0.84,
+       "s": 0.14,
+       "m": "none",
+       "front": true
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": [
+        0.1,
+        0.35
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Care e bicicleta? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🍌",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🚲",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Aceasta e bicicleta!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Bicicleta e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Încet, încet… și {singur|singură}! Bravo, GHI!",
+     "sec": 12,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.5,
+       0.72
+      ],
+      "face": "wow",
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "🚲",
+       "x": [
+        0.55,
+        0.77
+       ],
+       "y": 0.84,
+       "s": 0.14,
+       "m": "none",
+       "front": true
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.3,
+       "pose": "clap",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "La semafor: la roșu stăm, la verde mergem",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.5,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🚦",
+       "x": 0.78,
+       "y": 0.55,
+       "s": 0.16,
+       "m": "pulse"
+      },
+      {
+       "e": "🚲",
+       "x": 0.55,
+       "y": 0.84,
+       "s": 0.14,
+       "m": "none",
+       "front": true
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.3,
+       "pose": "point",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Facem o pauză și bem apă",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.45,
+      "hold": "🥤",
+      "face": "calm"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.68,
+       "pose": "sit",
+       "hold": "🥤"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.42,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.72,
+       "pose": "clap"
+      },
+      {
+       "who": "tati",
+       "x": 0.14,
+       "pose": "wave",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Acasă, GHI îi spune lui mami: am mers {singur|singură}!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.42,
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.72,
+       "pose": "clap"
+      },
+      {
+       "who": "tati",
+       "x": 0.14,
+       "pose": "wave",
+       "flip": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mami_poveste",
+   "title": "GHI cu mami la povestea de seară",
+   "set": "bedroom",
+   "learn": "Seara ne spălăm pe dinți, citim o poveste și dormim.",
+   "beats": [
+    {
+     "say": "E seară. Mami {îl|o} pregătește pe GHI de somn",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "calm"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.65,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Ne spălăm pe dinți: sus, jos, sus, jos",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "hold": "🪥"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.65,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Punem pijamaua cu steluțe",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.35
+     },
+     "props": [
+      {
+       "e": "⭐",
+       "x": 0.25,
+       "y": 0.4,
+       "s": 0.05,
+       "m": "float"
+      },
+      {
+       "e": "⭐",
+       "x": 0.45,
+       "y": 0.33,
+       "s": 0.05,
+       "m": "float"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.65,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Care e steluța? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🌻",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌙",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "⭐",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Aceasta e steluța!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Steluța e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Mami deschide cartea cu povești",
+     "sec": 12,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.4,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "📖",
+       "x": 0.55,
+       "y": 0.55,
+       "s": 0.1,
+       "m": "pulse"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.68,
+       "pose": "sit",
+       "hold": "📖"
+      }
+     ]
+    },
+    {
+     "say": "A fost odată un iepuraș care sărea: hop, hop",
+     "sec": 12,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.4,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🐰",
+       "x": [
+        0.2,
+        0.55
+       ],
+       "y": 0.4,
+       "s": 0.1,
+       "m": "hop"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.68,
+       "pose": "sit",
+       "hold": "📖"
+      }
+     ]
+    },
+    {
+     "say": "Iepurașul s-a culcat în căsuța lui",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.4,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🏠",
+       "x": 0.5,
+       "y": 0.38,
+       "s": 0.12,
+       "m": "none"
+      },
+      {
+       "e": "🐰",
+       "x": 0.5,
+       "y": 0.46,
+       "s": 0.05,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.68,
+       "pose": "sit",
+       "hold": "📖"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Suflă ușor, ca {un_dragon} cuminte: fuuu!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "face": "calm",
+      "puff": "steam"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.66,
+       "pose": "reach",
+       "face": "calm"
+      }
+     ]
+    },
+    {
+     "say": "Mami {îl|o} pupă pe GHI: noapte bună!",
+     "sec": 12,
+     "ghi": {
+      "pose": "sleep",
+      "x": 0.4,
+      "face": "sleepy",
+      "puff": "zzz"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.66,
+       "pose": "reach",
+       "face": "calm"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tati_masina",
+   "title": "GHI cu tati spală mașina",
+   "set": "park",
+   "learn": "Lucrăm împreună și avem grijă de lucrurile noastre.",
+   "beats": [
+    {
+     "say": "Mașina e murdară. O spălăm cu tati!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚗",
+       "x": 0.6,
+       "y": 0.8,
+       "s": 0.22,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Avem nevoie de apă, burete și spumă",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🚗",
+       "x": 0.6,
+       "y": 0.8,
+       "s": 0.22,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "hold",
+       "hold": "🧽"
+      }
+     ],
+     "count": {
+      "items": [
+       "💧",
+       "🧽",
+       "🫧"
+      ],
+      "y": 0.38,
+      "s": 0.08,
+      "x": [
+       0.35,
+       0.7
+      ],
+      "labels": [
+       "apă",
+       "burete",
+       "spumă"
+      ]
+     }
+    },
+    {
+     "say": "Frecăm roțile: frec, frec, frec",
+     "sec": 12,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.4,
+      "hold": "🧽"
+     },
+     "props": [
+      {
+       "e": "🚗",
+       "x": 0.6,
+       "y": 0.8,
+       "s": 0.22,
+       "m": "none"
+      },
+      {
+       "e": "🫧",
+       "x": 0.52,
+       "y": 0.7,
+       "s": 0.06,
+       "m": "float"
+      },
+      {
+       "e": "🫧",
+       "x": 0.6,
+       "y": 0.66,
+       "s": 0.05,
+       "m": "float"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Care e mașina? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "⭐",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🚗",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Aceasta e mașina!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Mașina e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Tati dă cu furtunul: sss! GHI râde",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.34,
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "🚗",
+       "x": 0.6,
+       "y": 0.8,
+       "s": 0.22,
+       "m": "none"
+      },
+      {
+       "e": "💦",
+       "x": 0.7,
+       "y": 0.62,
+       "s": 0.1,
+       "m": "pulse"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "hold",
+       "hold": "🚿"
+      }
+     ]
+    },
+    {
+     "say": "Ștergem cu prosopul până strălucește",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.4,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🚗",
+       "x": 0.6,
+       "y": 0.8,
+       "s": 0.22,
+       "m": "none"
+      },
+      {
+       "e": "✨",
+       "x": 0.6,
+       "y": 0.64,
+       "s": 0.08,
+       "m": "pulse"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Ce curată e! Mulțumim, tati",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.34,
+      "puff": "hearts"
+     },
+     "props": [
+      {
+       "e": "🚗",
+       "x": 0.6,
+       "y": 0.8,
+       "s": 0.22,
+       "m": "none"
+      },
+      {
+       "e": "✨",
+       "x": 0.68,
+       "y": 0.66,
+       "s": 0.06,
+       "m": "pulse"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.34,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Pa-pa, mașinuțo! Ne vedem mâine",
+     "sec": 8,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.34
+     },
+     "props": [
+      {
+       "e": "🚗",
+       "x": 0.6,
+       "y": 0.8,
+       "s": 0.22,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "stand"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mami_parc",
+   "title": "GHI cu mami în parc",
+   "set": "park",
+   "learn": "În parc ne jucăm cu grijă și avem grijă de animăluțe.",
+   "beats": [
+    {
+     "say": "Mami și GHI merg în parc",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.1,
+       0.35
+      ]
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": [
+        0.2,
+        0.52
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Mami {îl|o} dă în leagăn: sus și jos",
+     "sec": 12,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.4,
+      "m": "swing",
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.72,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Pe tobogan: unu, doi, trei, zuuum!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": [
+       0.3,
+       0.55
+      ],
+      "face": "wow"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.8,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Care e rățușca? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🍌",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🦆",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Aceasta e rățușca!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Rățușca e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Hrănim rățuștele cu semințe",
+     "sec": 12,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.4,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🦆",
+       "x": [
+        0.88,
+        0.65
+       ],
+       "y": 0.86,
+       "s": 0.08,
+       "m": "swim"
+      },
+      {
+       "e": "🦆",
+       "x": [
+        0.98,
+        0.78
+       ],
+       "y": 0.88,
+       "s": 0.07,
+       "m": "swim"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.18,
+       "pose": "point",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Un fluture! Ce aripi colorate",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🦋",
+       "x": [
+        0.8,
+        0.55
+       ],
+       "y": [
+        0.3,
+        0.42
+       ],
+       "s": 0.07,
+       "m": "float"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.18,
+       "pose": "point",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Facem un picnic pe bancă",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.4,
+      "hold": "🍎"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.68,
+       "pose": "sit",
+       "hold": "🥪"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Bate din palme cu GHI: clap, clap, clap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.42,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": [
+        0.25,
+        0.64
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Mergem acasă de mână",
+     "sec": 8,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.42,
+       0.8
+      ],
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": [
+        0.25,
+        0.64
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tati_gradina",
+   "title": "GHI cu tati în grădină",
+   "set": "garden",
+   "learn": "Plantele cresc cu apă, soare și răbdare.",
+   "beats": [
+    {
+     "say": "Tati și GHI merg în grădină",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.1,
+       0.35
+      ],
+      "hold": "🪣"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": [
+        0.25,
+        0.62
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Săpăm o groapă mică",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.35,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🕳️",
+       "x": 0.5,
+       "y": 0.86,
+       "s": 0.07,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.66,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Punem sămânța și o acoperim",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.35,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🌰",
+       "x": [
+        0.47,
+        0.5
+       ],
+       "y": [
+        0.7,
+        0.86
+       ],
+       "s": 0.05,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.66,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Care e soarele? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌞",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐰",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Acesta e soarele!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Soarele e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Udăm cu stropitoarea: pic, pic, pic",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "hold": "🚿"
+     },
+     "props": [
+      {
+       "e": "💧",
+       "x": 0.5,
+       "y": [
+        0.7,
+        0.86
+       ],
+       "s": 0.04,
+       "m": "fall"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.66,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Soarele o încălzește. Așteptăm…",
+     "sec": 12,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.35,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🌞",
+       "x": 0.75,
+       "y": 0.25,
+       "s": 0.14,
+       "m": "pulse"
+      },
+      {
+       "e": "🌱",
+       "x": 0.5,
+       "y": 0.84,
+       "s": 0.06,
+       "m": "grow"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.66,
+       "pose": "sit"
+      }
+     ]
+    },
+    {
+     "say": "Uite! A crescut o roșie mare",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.35,
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "🍅",
+       "x": 0.5,
+       "y": 0.76,
+       "s": 0.1,
+       "m": "grow"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.66,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.66,
+       "pose": "hold",
+       "hold": "🍅"
+      }
+     ]
+    },
+    {
+     "say": "O spălăm și o mâncăm împreună. Mmm!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "hold": "🍅",
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.66,
+       "pose": "hold",
+       "hold": "🍅"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "familie_picnic",
+   "title": "GHI cu mami și tati la picnic",
+   "set": "meadow",
+   "learn": "Ne distrăm împreună și lăsăm natura curată.",
+   "beats": [
+    {
+     "say": "Azi mergem toți trei la picnic",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.2,
+       0.45
+      ],
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": [
+        0.06,
+        0.25
+       ],
+       "pose": "walk",
+       "flip": false
+      },
+      {
+       "who": "tati",
+       "x": [
+        0.38,
+        0.7
+       ],
+       "pose": "walk",
+       "hold": "🧺",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Întindem pătura pe iarbă",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.45,
+      "face": "wow"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.2,
+       "pose": "reach",
+       "flip": false
+      },
+      {
+       "who": "tati",
+       "x": 0.75,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Ce avem? Sandvișuri, mere și apă",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.45,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.2,
+       "pose": "sit",
+       "flip": false
+      },
+      {
+       "who": "tati",
+       "x": 0.75,
+       "pose": "sit"
+      }
+     ],
+     "count": {
+      "items": [
+       "🥪",
+       "🍎",
+       "💧"
+      ],
+      "y": 0.38,
+      "s": 0.08,
+      "x": [
+       0.35,
+       0.65
+      ],
+      "labels": [
+       "sandvișuri",
+       "mere",
+       "apă"
+      ]
+     }
+    },
+    {
+     "say": "Care e sandvișul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🥪",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍌",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Acesta e sandvișul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Sandvișul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Tati umflă un balon mare",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.45,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🎈",
+       "x": 0.8,
+       "y": [
+        0.6,
+        0.42
+       ],
+       "s": 0.07,
+       "m": "grow"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.2,
+       "pose": "sit",
+       "flip": false
+      },
+      {
+       "who": "tati",
+       "x": 0.75,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Ne jucăm cu balonul: sus, sus!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.45,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🎈",
+       "x": [
+        0.4,
+        0.6
+       ],
+       "y": [
+        0.5,
+        0.3
+       ],
+       "s": 0.1,
+       "m": "float"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.2,
+       "pose": "clap",
+       "flip": false
+      },
+      {
+       "who": "tati",
+       "x": 0.75,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Strângem gunoiul în pungă. Natura rămâne curată",
+     "sec": 12,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.45,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🗑️",
+       "x": 0.6,
+       "y": 0.84,
+       "s": 0.08,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.2,
+       "pose": "point",
+       "flip": false
+      },
+      {
+       "who": "tati",
+       "x": 0.75,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Sari ca GHI: hop, hop!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.5,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.3,
+       "pose": "reach",
+       "flip": false
+      },
+      {
+       "who": "tati",
+       "x": 0.7,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "O îmbrățișare mare de familie!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.5,
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.3,
+       "pose": "reach",
+       "flip": false
+      },
+      {
+       "who": "tati",
+       "x": 0.7,
+       "pose": "reach"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pompier",
+   "title": "GHI și pompierul",
+   "set": "street",
+   "learn": "Pompierii ne ajută când e pericol. Dacă e nevoie, cei mari sună la 112.",
+   "beats": [
+    {
+     "say": "GHI se plimbă în parc. Ce se aude? Nino-nino!",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.1,
+       0.3
+      ],
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚒",
+       "x": [
+        1.25,
+        0.86
+       ],
+       "y": 0.8,
+       "s": 0.2,
+       "m": "none"
+      }
+     ]
+    },
+    {
+     "say": "A venit pompierul cu mașina roșie",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚒",
+       "x": 0.86,
+       "y": 0.8,
+       "s": 0.2,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "pompier",
+       "x": [
+        0.85,
+        0.62
+       ],
+       "pose": "walk"
+      }
+     ]
+    },
+    {
+     "say": "O pisicuță s-a urcat în copac și nu poate coborî",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "sad"
+     },
+     "props": [
+      {
+       "e": "🐈",
+       "x": 0.5,
+       "y": 0.32,
+       "s": 0.08,
+       "m": "wiggle"
+      },
+      {
+       "e": "🚒",
+       "x": 0.86,
+       "y": 0.8,
+       "s": 0.2,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "pompier",
+       "x": 0.66,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Pompierul pune scara: sus, sus, sus",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🪜",
+       "x": 0.52,
+       "y": 0.58,
+       "s": 0.22,
+       "m": "none"
+      },
+      {
+       "e": "🐈",
+       "x": 0.5,
+       "y": 0.32,
+       "s": 0.08,
+       "m": "wiggle"
+      }
+     ],
+     "people": [
+      {
+       "who": "pompier",
+       "x": 0.66,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Care e scara? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚗",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "⭐",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🪜",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Aceasta e scara!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Scara e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "A luat-o! Pisicuța e în siguranță",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3,
+      "puff": "stars"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "pompier",
+       "x": 0.62,
+       "pose": "hold",
+       "hold": "🐈"
+      }
+     ]
+    },
+    {
+     "say": "GHI mângâie pisicuța: ușor, cu blândețe",
+     "sec": 12,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.38,
+      "face": "happy",
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "pompier",
+       "x": 0.6,
+       "pose": "hold",
+       "hold": "🐈"
+      }
+     ]
+    },
+    {
+     "say": "Mulțumim, domnule pompier!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35
+     },
+     "props": [
+      {
+       "e": "🚒",
+       "x": 0.86,
+       "y": 0.8,
+       "s": 0.2,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "pompier",
+       "x": 0.66,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.35,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": []
+    },
+    {
+     "say": "Mașina pleacă mai departe: nino-nino!",
+     "sec": 8,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🚒",
+       "x": [
+        0.86,
+        1.3
+       ],
+       "y": 0.8,
+       "s": 0.2,
+       "m": "none"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "doctor",
+   "title": "GHI la doctoriță",
+   "set": "clinic",
+   "learn": "Doctorul ne ajută să fim sănătoși. Nu ne e frică de el.",
+   "beats": [
+    {
+     "say": "GHI merge cu mami la doctoriță",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.1,
+       0.35
+      ]
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": [
+        0.02,
+        0.2
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Bună ziua, doamna doctor!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "doctor",
+       "x": 0.68,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Doctorița ascultă inimioara: bum-bum, bum-bum",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.38,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "❤️",
+       "x": 0.39,
+       "y": 0.6,
+       "s": 0.05,
+       "m": "beat"
+      }
+     ],
+     "people": [
+      {
+       "who": "doctor",
+       "x": 0.6,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Acum deschidem gura mare: aaa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.38,
+      "face": "wow"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "doctor",
+       "x": 0.6,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Care e inimioara? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "❤️",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "⭐",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍎",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Aceasta e inimioara!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Inimioara e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Ne uităm în urechi. Gâdilă puțin!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.38,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "doctor",
+       "x": 0.6,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Ce mare ai crescut, GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.38,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "📏",
+       "x": 0.28,
+       "y": 0.66,
+       "s": 0.16,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "doctor",
+       "x": 0.62,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "GHI e {sănătos|sănătoasă}! Primește un abțibild cu steluță",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.38,
+      "puff": "stars"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "doctor",
+       "x": 0.62,
+       "pose": "hold",
+       "hold": "⭐"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Bate din palme cu GHI: clap, clap, clap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.35,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "doctor",
+       "x": 0.68,
+       "pose": "wave"
+      },
+      {
+       "who": "mami",
+       "x": 0.12,
+       "pose": "wave",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "La revedere și mulțumim!",
+     "sec": 8,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "doctor",
+       "x": 0.68,
+       "pose": "wave"
+      },
+      {
+       "who": "mami",
+       "x": 0.12,
+       "pose": "wave",
+       "flip": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "politist",
+   "title": "GHI și polițistul",
+   "set": "street",
+   "learn": "La roșu stăm, la verde trecem, de mână cu mami sau tati.",
+   "beats": [
+    {
+     "say": "GHI și tati merg pe stradă",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.12,
+       0.35
+      ]
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": [
+        0.02,
+        0.22
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Polițistul are grijă ca toți să treacă în siguranță",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "wow"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "politist",
+       "x": 0.68,
+       "pose": "wave"
+      },
+      {
+       "who": "tati",
+       "x": 0.2,
+       "pose": "stand",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "La semafor e roșu. Stăm pe loc!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🔴",
+       "x": 0.84,
+       "y": 0.35,
+       "s": 0.07,
+       "m": "pulse"
+      }
+     ],
+     "people": [
+      {
+       "who": "politist",
+       "x": 0.68,
+       "pose": "point"
+      },
+      {
+       "who": "tati",
+       "x": 0.2,
+       "pose": "stand",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Care e bulina roșie? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🔴",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐰",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌙",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Aceasta e bulina roșie!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Bulina roșie e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Acum e verde! Ne uităm în stânga și în dreapta",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.35,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🟢",
+       "x": 0.84,
+       "y": 0.35,
+       "s": 0.07,
+       "m": "pulse"
+      }
+     ],
+     "people": [
+      {
+       "who": "politist",
+       "x": 0.68,
+       "pose": "clap"
+      },
+      {
+       "who": "tati",
+       "x": 0.2,
+       "pose": "point",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Trecem pe zebră, de mână cu tati",
+     "sec": 12,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.35,
+       0.6
+      ],
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "tati",
+       "x": [
+        0.2,
+        0.45
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Polițistul îi arată lui GHI mașina de poliție",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.4,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚓",
+       "x": 0.82,
+       "y": 0.8,
+       "s": 0.18,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "politist",
+       "x": 0.62,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.4,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "politist",
+       "x": 0.66,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "GHI îi face cu mâna: mulțumim!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.4,
+      "face": "happy",
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "politist",
+       "x": 0.66,
+       "pose": "wave"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bucatar",
+   "title": "GHI și bucătarul",
+   "set": "kitchen",
+   "learn": "Legumele ne fac puternici, iar mâncarea caldă o suflăm întâi.",
+   "beats": [
+    {
+     "say": "GHI vizitează bucătăria unui bucătar",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.1,
+       0.32
+      ]
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "bucatar",
+       "x": 0.66,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Bucătarul are o pălărie înaltă și albă",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "face": "wow"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "bucatar",
+       "x": 0.66,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Spălăm legumele: morcov, roșie, castravete",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "bucatar",
+       "x": 0.68,
+       "pose": "reach"
+      }
+     ],
+     "count": {
+      "items": [
+       "🥕",
+       "🍅",
+       "🥒"
+      ],
+      "y": 0.38,
+      "s": 0.08,
+      "x": [
+       0.3,
+       0.62
+      ],
+      "labels": [
+       "morcov",
+       "roșie",
+       "castravete"
+      ]
+     }
+    },
+    {
+     "say": "Care e morcovul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🥕",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐰",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🌙",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Acesta e morcovul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Morcovul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Bucătarul taie salata. Cuțitul e doar pentru cei mari",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🥗",
+       "x": 0.5,
+       "y": 0.6,
+       "s": 0.1,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "bucatar",
+       "x": 0.68,
+       "pose": "hold"
+      }
+     ]
+    },
+    {
+     "say": "Amestecăm ciorba: învârte, învârte",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "hold": "🥄"
+     },
+     "props": [
+      {
+       "e": "🍲",
+       "x": 0.5,
+       "y": 0.66,
+       "s": 0.1,
+       "m": "wiggle"
+      }
+     ],
+     "people": [
+      {
+       "who": "bucatar",
+       "x": 0.68,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "E caldă! Suflăm întâi: fuuu",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "face": "wow",
+      "puff": "steam"
+     },
+     "props": [
+      {
+       "e": "🍲",
+       "x": 0.45,
+       "y": 0.66,
+       "s": 0.08,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "bucatar",
+       "x": 0.68,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Sari ca GHI: hop, hop!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.32,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "bucatar",
+       "x": 0.68,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Mmm, ce bună! Mulțumim, bucătarule!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.32,
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "bucatar",
+       "x": 0.68,
+       "pose": "wave"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "constructor",
+   "title": "GHI și constructorul",
+   "set": "site",
+   "learn": "Constructorii fac case. Pe șantier purtăm cască și stăm departe de utilaje.",
+   "beats": [
+    {
+     "say": "Pe șantier se construiește o casă",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.08,
+       0.28
+      ]
+     },
+     "props": [
+      {
+       "e": "🏗️",
+       "x": 0.82,
+       "y": 0.45,
+       "s": 0.24,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "constructor",
+       "x": 0.6,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Constructorul poartă cască, ca să-și apere capul",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.28,
+      "face": "wow",
+      "hold": "⛑️"
+     },
+     "props": [
+      {
+       "e": "🏗️",
+       "x": 0.82,
+       "y": 0.45,
+       "s": 0.24,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "constructor",
+       "x": 0.6,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Pune cărămizile una peste alta: una, două, trei",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.28,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "constructor",
+       "x": 0.7,
+       "pose": "reach"
+      }
+     ],
+     "count": {
+      "items": [
+       "🧱",
+       "🧱",
+       "🧱"
+      ],
+      "y": 0.55,
+      "s": 0.08,
+      "x": [
+       0.42,
+       0.58
+      ]
+     }
+    },
+    {
+     "say": "Care e cărămida? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.28,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐈",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🧱",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍌",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Aceasta e cărămida!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Cărămida e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Excavatorul sapă: brum-brum! Stăm departe",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.22,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚜",
+       "x": [
+        1.1,
+        0.72
+       ],
+       "y": 0.78,
+       "s": 0.18,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "constructor",
+       "x": 0.45,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "GHI ajută cu găleata cea mică",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.22,
+       0.4
+      ],
+      "hold": "🪣"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "constructor",
+       "x": 0.66,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Casa e gata! Are ușă și ferestre",
+     "sec": 12,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3,
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "🏠",
+       "x": 0.62,
+       "y": 0.55,
+       "s": 0.26,
+       "m": "grow"
+      }
+     ],
+     "people": [
+      {
+       "who": "constructor",
+       "x": 0.84,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.3,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "constructor",
+       "x": 0.84,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Bravo, constructorule!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.3
+     },
+     "props": [
+      {
+       "e": "🏠",
+       "x": 0.62,
+       "y": 0.55,
+       "s": 0.26,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "constructor",
+       "x": 0.84,
+       "pose": "clap"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fermier",
+   "title": "GHI la fermier",
+   "set": "farm",
+   "learn": "Fermierii cresc animale și legume, ca noi să avem mâncare.",
+   "beats": [
+    {
+     "say": "GHI merge la fermă, la nea Ion fermierul",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.1,
+       0.3
+      ]
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "fermier",
+       "x": 0.64,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Văcuța face muu și ne dă lapte",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐄",
+       "x": 0.82,
+       "y": 0.72,
+       "s": 0.16,
+       "m": "bob"
+      }
+     ],
+     "people": [
+      {
+       "who": "fermier",
+       "x": 0.6,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Găinile fac ouă: unu, doi, trei",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🐔",
+       "x": 0.82,
+       "y": 0.78,
+       "s": 0.1,
+       "m": "hop"
+      }
+     ],
+     "people": [
+      {
+       "who": "fermier",
+       "x": 0.6,
+       "pose": "hold",
+       "hold": "🧺"
+      }
+     ],
+     "count": {
+      "items": [
+       "🥚",
+       "🥚",
+       "🥚"
+      ],
+      "y": 0.45,
+      "s": 0.07,
+      "x": [
+       0.42,
+       0.6
+      ]
+     }
+    },
+    {
+     "say": "Care e găinușa? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🎈",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐕",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐔",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Aceasta e găinușa!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Găinușa e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Fermierul dă mâncare la oițe",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🐑",
+       "x": 0.84,
+       "y": 0.78,
+       "s": 0.12,
+       "m": "hop"
+      },
+      {
+       "e": "🐑",
+       "x": 0.94,
+       "y": 0.8,
+       "s": 0.1,
+       "m": "hop"
+      }
+     ],
+     "people": [
+      {
+       "who": "fermier",
+       "x": 0.62,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Tractorul merge pe câmp: brum!",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚜",
+       "x": [
+        1.15,
+        -0.2
+       ],
+       "y": 0.8,
+       "s": 0.18,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "fermier",
+       "x": 0.6,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Scoatem morcovi din pământ: trage, trage, hop!",
+     "sec": 12,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.35,
+      "face": "happy",
+      "hold": "🥕"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "fermier",
+       "x": 0.62,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Bate din palme cu GHI: clap, clap, clap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.35,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "fermier",
+       "x": 0.64,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Mulțumim, fermierule, pentru mâncarea bună!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35,
+      "face": "happy",
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "fermier",
+       "x": 0.64,
+       "pose": "wave"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "postas",
+   "title": "GHI și poștărița",
+   "set": "street",
+   "learn": "Poștașul aduce scrisori și pachete. Spunem „mulțumesc”.",
+   "beats": [
+    {
+     "say": "Ding-dong! A venit poștărița",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.25,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🏠",
+       "x": 0.12,
+       "y": 0.55,
+       "s": 0.24,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "postas",
+       "x": [
+        0.95,
+        0.62
+       ],
+       "pose": "walk"
+      }
+     ]
+    },
+    {
+     "say": "Are o geantă mare plină cu scrisori",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "postas",
+       "x": 0.6,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "A adus o scrisoare pentru GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.32,
+      "face": "wow"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "postas",
+       "x": 0.58,
+       "pose": "hold",
+       "hold": "✉️"
+      }
+     ]
+    },
+    {
+     "say": "Care e căsuța? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🏠",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🎈",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐕",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Aceasta e căsuța!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Căsuța e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Ce e înăuntru? Un desen de la bunica!",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "hold": "🖼️",
+      "face": "happy",
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "postas",
+       "x": 0.6,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Și un pachet! Hai să-l deschidem",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "📦",
+       "x": 0.45,
+       "y": 0.82,
+       "s": 0.1,
+       "m": "wiggle"
+      }
+     ],
+     "people": [
+      {
+       "who": "postas",
+       "x": 0.62,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Un ursuleț! Ce bucurie!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.32,
+      "hold": "🧸",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "postas",
+       "x": 0.62,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Fă-i cu mânuța lui GHI: pa-pa!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.32,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "postas",
+       "x": [
+        0.62,
+        1.0
+       ],
+       "pose": "walk"
+      }
+     ]
+    },
+    {
+     "say": "Mulțumim, doamna poștăriță! La revedere!",
+     "sec": 8,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.32
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "postas",
+       "x": [
+        0.62,
+        1.0
+       ],
+       "pose": "walk"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pilot",
+   "title": "GHI și pilotul",
+   "set": "airport",
+   "learn": "Pilotul conduce avionul. În avion stăm cu centura pusă.",
+   "beats": [
+    {
+     "say": "GHI merge la aeroport cu mami și tati",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.2,
+       0.42
+      ]
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": [
+        0.04,
+        0.24
+       ],
+       "pose": "walk",
+       "flip": false
+      },
+      {
+       "who": "tati",
+       "x": [
+        0.3,
+        0.58
+       ],
+       "pose": "walk",
+       "flip": false
+      }
+     ]
+    },
+    {
+     "say": "Uite avionul! E mare și alb",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "✈️",
+       "x": 0.72,
+       "y": 0.55,
+       "s": 0.3,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "tati",
+       "x": 0.12,
+       "pose": "point",
+       "flip": false
+      }
+     ],
+     "cam": [
+      1.0,
+      1.06
+     ]
+    },
+    {
+     "say": "Doamna pilot {îl|o} salută pe GHI",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "✈️",
+       "x": 0.84,
+       "y": 0.45,
+       "s": 0.22,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "pilot",
+       "x": 0.6,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Care e avionul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "✈️",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐈",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍌",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 0,
+      "yes": "Bravo! Acesta e avionul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Avionul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Ne punem centura: clic!",
+     "sec": 10,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.35,
+      "face": "calm"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.62,
+       "pose": "sit"
+      },
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "sit"
+      }
+     ]
+    },
+    {
+     "say": "Avionul pornește: vuuum! Și zboară sus",
+     "sec": 12,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.35,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "✈️",
+       "x": [
+        0.6,
+        1.1
+       ],
+       "y": [
+        0.6,
+        0.2
+       ],
+       "s": 0.14,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.62,
+       "pose": "sit"
+      }
+     ]
+    },
+    {
+     "say": "Pe geam vedem norii de sus",
+     "sec": 12,
+     "ghi": {
+      "pose": "sit",
+      "x": 0.35,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "☁️",
+       "x": [
+        1.1,
+        -0.1
+       ],
+       "y": 0.35,
+       "s": 0.14,
+       "m": "none"
+      },
+      {
+       "e": "☁️",
+       "x": [
+        1.4,
+        0.2
+       ],
+       "y": 0.5,
+       "s": 0.1,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "mami",
+       "x": 0.62,
+       "pose": "sit",
+       "face": "wow"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Sari ca GHI: hop, hop!",
+     "sec": 10,
+     "ghi": {
+      "pose": "jump",
+      "x": 0.35,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "pilot",
+       "x": 0.66,
+       "pose": "wave"
+      },
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "stand"
+      }
+     ]
+    },
+    {
+     "say": "Am aterizat. Mulțumim, doamna pilot!",
+     "sec": 10,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.35
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "pilot",
+       "x": 0.66,
+       "pose": "wave"
+      },
+      {
+       "who": "tati",
+       "x": 0.86,
+       "pose": "stand"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "veterinar",
+   "title": "GHI la veterinară",
+   "set": "clinic",
+   "learn": "Veterinarul are grijă de animale când sunt bolnave.",
+   "beats": [
+    {
+     "say": "Cățelul lui GHI tușește. Mergem la veterinară",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.1,
+       0.3
+      ],
+      "face": "sad"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": [
+        0.2,
+        0.4
+       ],
+       "y": 0.86,
+       "s": 0.08,
+       "m": "hop"
+      }
+     ]
+    },
+    {
+     "say": "Veterinara ascultă cățelul cu stetoscopul",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.25,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.45,
+       "y": 0.82,
+       "s": 0.1,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "veterinar",
+       "x": 0.66,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Îi verifică urechile și lăbuțele",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.25,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.45,
+       "y": 0.82,
+       "s": 0.1,
+       "m": "wiggle"
+      }
+     ],
+     "people": [
+      {
+       "who": "veterinar",
+       "x": 0.66,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Care e cățelul? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.25,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🚗",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐕",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🎈",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 1,
+      "yes": "Bravo! Acesta e cățelul!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Cățelul e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Cățelul primește un pansament pe lăbuță",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.25,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.45,
+       "y": 0.82,
+       "s": 0.1,
+       "m": "none"
+      },
+      {
+       "e": "🩹",
+       "x": 0.5,
+       "y": 0.86,
+       "s": 0.04,
+       "m": "none"
+      }
+     ],
+     "people": [
+      {
+       "who": "veterinar",
+       "x": 0.66,
+       "pose": "hold",
+       "hold": "🩹"
+      }
+     ]
+    },
+    {
+     "say": "GHI îl mângâie: ești curajos!",
+     "sec": 12,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.32,
+      "face": "happy",
+      "puff": "hearts"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.45,
+       "y": 0.82,
+       "s": 0.1,
+       "m": "wiggle"
+      }
+     ],
+     "people": [
+      {
+       "who": "veterinar",
+       "x": 0.7,
+       "pose": "clap"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Dansează cu GHI!",
+     "sec": 10,
+     "ghi": {
+      "pose": "dance",
+      "x": 0.3,
+      "face": "happy",
+      "puff": "notes"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "veterinar",
+       "x": 0.7,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Cățelul e bine! Ham-ham!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3,
+      "puff": "stars"
+     },
+     "props": [
+      {
+       "e": "🐕",
+       "x": 0.48,
+       "y": 0.82,
+       "s": 0.1,
+       "m": "hop"
+      }
+     ],
+     "people": [
+      {
+       "who": "veterinar",
+       "x": 0.7,
+       "pose": "wave"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "brutar",
+   "title": "GHI și brutăreasa",
+   "set": "kitchen",
+   "learn": "Brutarul face pâinea. Mulțumim pentru fiecare bucățică.",
+   "beats": [
+    {
+     "say": "Dimineața devreme, brutăreasa face pâine",
+     "sec": 10,
+     "ghi": {
+      "pose": "walk",
+      "x": [
+       0.1,
+       0.3
+      ],
+      "face": "wow"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "brutar",
+       "x": 0.66,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Avem nevoie de făină, apă și sare",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "happy"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "brutar",
+       "x": 0.68,
+       "pose": "point"
+      }
+     ],
+     "count": {
+      "items": [
+       "🌾",
+       "💧",
+       "🧂"
+      ],
+      "y": 0.38,
+      "s": 0.08,
+      "x": [
+       0.3,
+       0.62
+      ],
+      "labels": [
+       "făină",
+       "apă",
+       "sare"
+      ]
+     }
+    },
+    {
+     "say": "Frământăm aluatul: apasă, apasă",
+     "sec": 12,
+     "ghi": {
+      "pose": "reach",
+      "x": 0.34,
+      "face": "happy"
+     },
+     "props": [
+      {
+       "e": "🥣",
+       "x": 0.48,
+       "y": 0.66,
+       "s": 0.1,
+       "m": "wiggle"
+      }
+     ],
+     "people": [
+      {
+       "who": "brutar",
+       "x": 0.66,
+       "pose": "reach"
+      }
+     ]
+    },
+    {
+     "say": "Care e pâinea? Arată cu degetul!",
+     "sec": 14,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.34,
+      "face": "wow"
+     },
+     "props": [
+      {
+       "e": "🎈",
+       "x": 0.56,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🐕",
+       "x": 0.72,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      },
+      {
+       "e": "🍞",
+       "x": 0.88,
+       "y": 0.5,
+       "s": 0.12,
+       "m": "bob"
+      }
+     ],
+     "cam": [
+      1.0,
+      1.0
+     ],
+     "ask": {
+      "answer": 2,
+      "yes": "Bravo! Aceasta e pâinea!",
+      "no": "Mai caută puțin!",
+      "hint": "Uite! Pâinea e aici, unde strălucește."
+     }
+    },
+    {
+     "say": "Pâinea crește în cuptorul cald",
+     "sec": 12,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.3,
+      "face": "calm"
+     },
+     "props": [
+      {
+       "e": "♨️",
+       "x": 0.75,
+       "y": 0.42,
+       "s": 0.1,
+       "m": "float"
+      },
+      {
+       "e": "🍞",
+       "x": 0.75,
+       "y": 0.55,
+       "s": 0.1,
+       "m": "grow"
+      }
+     ],
+     "people": [
+      {
+       "who": "brutar",
+       "x": 0.6,
+       "pose": "point"
+      }
+     ]
+    },
+    {
+     "say": "Uite: pâine, covrigi și cornuri",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.3,
+      "puff": "stars"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "brutar",
+       "x": 0.68,
+       "pose": "clap"
+      }
+     ],
+     "count": {
+      "items": [
+       "🍞",
+       "🥨",
+       "🥐"
+      ],
+      "y": 0.38,
+      "s": 0.08,
+      "x": [
+       0.3,
+       0.62
+      ],
+      "labels": [
+       "pâine",
+       "covrigi",
+       "cornuri"
+      ]
+     }
+    },
+    {
+     "say": "GHI ia un covrig cald. Mmm!",
+     "sec": 10,
+     "ghi": {
+      "pose": "stand",
+      "x": 0.32,
+      "hold": "🥨",
+      "face": "happy",
+      "puff": "hearts"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "brutar",
+       "x": 0.66,
+       "pose": "hold",
+       "hold": "🍞"
+      }
+     ]
+    },
+    {
+     "say": "Acum tu! Bate din palme cu GHI: clap, clap, clap!",
+     "sec": 10,
+     "ghi": {
+      "pose": "happy",
+      "x": 0.32,
+      "face": "happy",
+      "puff": "stars"
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "brutar",
+       "x": 0.66,
+       "pose": "wave"
+      }
+     ]
+    },
+    {
+     "say": "Mulțumim, doamna brutăreasă!",
+     "sec": 8,
+     "ghi": {
+      "pose": "wave",
+      "x": 0.32
+     },
+     "props": [],
+     "people": [
+      {
+       "who": "brutar",
+       "x": 0.66,
+       "pose": "wave"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "touch": [
+  {
+   "id": "ferma",
+   "title": "La fermă",
+   "set": "farm",
+   "items": [
+    {
+     "e": "🐄",
+     "name": "Vaca",
+     "say": "Vaca face muuu!"
+    },
+    {
+     "e": "🐑",
+     "name": "Oaia",
+     "say": "Oaia face beee!"
+    },
+    {
+     "e": "🐖",
+     "name": "Porcul",
+     "say": "Porcul face oinc-oinc!"
+    },
+    {
+     "e": "🐓",
+     "name": "Cocoșul",
+     "say": "Cocoșul face cucurigu!"
+    },
+    {
+     "e": "🐴",
+     "name": "Calul",
+     "say": "Calul face ihaha!"
+    },
+    {
+     "e": "🐕",
+     "name": "Cățelul",
+     "say": "Cățelul face ham-ham!"
+    },
+    {
+     "e": "🐈",
+     "name": "Pisica",
+     "say": "Pisica face miau!"
+    },
+    {
+     "e": "🦆",
+     "name": "Rața",
+     "say": "Rața face mac-mac!"
+    }
+   ]
+  },
+  {
+   "id": "zoo",
+   "title": "La zoo",
+   "set": "meadow",
+   "items": [
+    {
+     "e": "🦁",
+     "name": "Leul",
+     "say": "Leul face rrrr!"
+    },
+    {
+     "e": "🐘",
+     "name": "Elefantul",
+     "say": "Elefantul are trompă lungă"
+    },
+    {
+     "e": "🦒",
+     "name": "Girafa",
+     "say": "Girafa are gâtul lung"
+    },
+    {
+     "e": "🐒",
+     "name": "Maimuța",
+     "say": "Maimuța se cațără în copac"
+    },
+    {
+     "e": "🐻",
+     "name": "Ursul",
+     "say": "Ursul iubește mierea"
+    },
+    {
+     "e": "🐧",
+     "name": "Pinguinul",
+     "say": "Pinguinul trăiește unde e frig"
+    },
+    {
+     "e": "🦓",
+     "name": "Zebra",
+     "say": "Zebra are dungi"
+    },
+    {
+     "e": "🐢",
+     "name": "Broasca țestoasă",
+     "say": "Broasca țestoasă merge încet"
+    }
+   ]
+  },
+  {
+   "id": "fructe",
+   "title": "Fructe și legume",
+   "set": "kitchen",
+   "items": [
+    {
+     "e": "🍎",
+     "name": "Mărul",
+     "say": "Mărul e roșu"
+    },
+    {
+     "e": "🍌",
+     "name": "Banana",
+     "say": "Banana e galbenă"
+    },
+    {
+     "e": "🍐",
+     "name": "Para",
+     "say": "Para e verde"
+    },
+    {
+     "e": "🍇",
+     "name": "Strugurii",
+     "say": "Strugurii sunt mov"
+    },
+    {
+     "e": "🥕",
+     "name": "Morcovul",
+     "say": "Morcovul e portocaliu"
+    },
+    {
+     "e": "🍓",
+     "name": "Căpșuna",
+     "say": "Căpșuna e roșie și dulce"
+    },
+    {
+     "e": "🥒",
+     "name": "Castravetele",
+     "say": "Castravetele e verde"
+    },
+    {
+     "e": "🍅",
+     "name": "Roșia",
+     "say": "Roșia e roșie"
+    }
+   ]
+  },
+  {
+   "id": "cer",
+   "title": "Pe cer",
+   "set": "sky",
+   "items": [
+    {
+     "e": "☀️",
+     "name": "Soarele",
+     "say": "Soarele ne încălzește"
+    },
+    {
+     "e": "🌙",
+     "name": "Luna",
+     "say": "Luna strălucește noaptea"
+    },
+    {
+     "e": "⭐",
+     "name": "Steaua",
+     "say": "Steaua sclipește"
+    },
+    {
+     "e": "☁️",
+     "name": "Norul",
+     "say": "Norul e pufos"
+    },
+    {
+     "e": "🌈",
+     "name": "Curcubeul",
+     "say": "Curcubeul are multe culori"
+    },
+    {
+     "e": "✈️",
+     "name": "Avionul",
+     "say": "Avionul zboară sus"
+    },
+    {
+     "e": "🎈",
+     "name": "Balonul",
+     "say": "Balonul zboară"
+    },
+    {
+     "e": "🐦",
+     "name": "Pasărea",
+     "say": "Pasărea face cip-cirip"
+    }
+   ]
+  },
+  {
+   "id": "strada",
+   "title": "Pe stradă",
+   "set": "park",
+   "items": [
+    {
+     "e": "🚗",
+     "name": "Mașina",
+     "say": "Mașina face brum-brum"
+    },
+    {
+     "e": "🚌",
+     "name": "Autobuzul",
+     "say": "Autobuzul duce mulți oameni"
+    },
+    {
+     "e": "🚲",
+     "name": "Bicicleta",
+     "say": "Bicicleta are două roți"
+    },
+    {
+     "e": "🚒",
+     "name": "Mașina de pompieri",
+     "say": "Pompierii sting focul"
+    },
+    {
+     "e": "🚑",
+     "name": "Ambulanța",
+     "say": "Ambulanța ajută oamenii bolnavi"
+    },
+    {
+     "e": "🚂",
+     "name": "Trenul",
+     "say": "Trenul face ciu-ciu"
+    },
+    {
+     "e": "🚦",
+     "name": "Semaforul",
+     "say": "La roșu stăm, la verde mergem"
+    },
+    {
+     "e": "🏠",
+     "name": "Casa",
+     "say": "Acasă e bine"
+    }
+   ]
+  },
+  {
+   "id": "culori",
+   "title": "Culori",
+   "set": "kinder",
+   "items": [
+    {
+     "e": "🔴",
+     "name": "Roșu",
+     "say": "Roșu, ca mărul"
+    },
+    {
+     "e": "🔵",
+     "name": "Albastru",
+     "say": "Albastru, ca cerul"
+    },
+    {
+     "e": "🟡",
+     "name": "Galben",
+     "say": "Galben, ca soarele"
+    },
+    {
+     "e": "🟢",
+     "name": "Verde",
+     "say": "Verde, ca iarba"
+    },
+    {
+     "e": "🟠",
+     "name": "Portocaliu",
+     "say": "Portocaliu, ca morcovul"
+    },
+    {
+     "e": "🟣",
+     "name": "Mov",
+     "say": "Mov, ca strugurii"
+    },
+    {
+     "e": "⚪",
+     "name": "Alb",
+     "say": "Alb, ca zăpada"
+    },
+    {
+     "e": "🟤",
+     "name": "Maro",
+     "say": "Maro, ca ursul"
+    }
+   ]
+  },
+  {
+   "id": "corp",
+   "title": "Corpul meu",
+   "set": "room",
+   "items": [
+    {
+     "e": "👀",
+     "name": "Ochii",
+     "say": "Cu ochii vedem"
+    },
+    {
+     "e": "👂",
+     "name": "Urechea",
+     "say": "Cu urechile auzim"
+    },
+    {
+     "e": "👃",
+     "name": "Nasul",
+     "say": "Cu nasul mirosim"
+    },
+    {
+     "e": "👄",
+     "name": "Gura",
+     "say": "Cu gura mâncăm și vorbim"
+    },
+    {
+     "e": "✋",
+     "name": "Mâna",
+     "say": "Cu mâna batem din palme"
+    },
+    {
+     "e": "🦶",
+     "name": "Piciorul",
+     "say": "Cu picioarele mergem"
+    },
+    {
+     "e": "🦷",
+     "name": "Dinții",
+     "say": "Dinții îi spălăm seara"
+    },
+    {
+     "e": "❤️",
+     "name": "Inima",
+     "say": "Inima face bum-bum"
+    }
+   ]
+  },
+  {
+   "id": "cifre",
+   "title": "Cifre",
+   "set": "kinder",
+   "items": [
+    {
+     "e": "1",
+     "name": "Unu",
+     "say": "Unu"
+    },
+    {
+     "e": "2",
+     "name": "Doi",
+     "say": "Doi"
+    },
+    {
+     "e": "3",
+     "name": "Trei",
+     "say": "Trei"
+    },
+    {
+     "e": "4",
+     "name": "Patru",
+     "say": "Patru"
+    },
+    {
+     "e": "5",
+     "name": "Cinci",
+     "say": "Cinci"
+    },
+    {
+     "e": "6",
+     "name": "Șase",
+     "say": "Șase"
+    },
+    {
+     "e": "7",
+     "name": "Șapte",
+     "say": "Șapte"
+    },
+    {
+     "e": "8",
+     "name": "Opt",
+     "say": "Opt"
+    }
+   ]
+  }
+ ]
+}
