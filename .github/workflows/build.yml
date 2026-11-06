@@ -32,16 +32,39 @@ jobs:
           name: KidToon
           path: KidToon.apk
 
+  tv:
+    name: KidToon TV (Kotlin, Android TV)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tv
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Teste
+        run: ./gradlew testDebugUnitTest
+      - name: Build APK
+        run: ./gradlew assembleRelease
+      - run: cp app/build/outputs/apk/release/app-release.apk KidToon-tv.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: KidToon-tv
+          path: tv/KidToon-tv.apk
+
   release:
-    name: Publică APK-ul
+    name: Publică APK-urile
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: [app]
+    needs: [app, tv]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: KidToon
           path: apk
+          merge-multiple: true
       - name: Actualizează release-ul "latest"
         uses: softprops/action-gh-release@v2
         with:
@@ -51,7 +74,8 @@ jobs:
           prerelease: false
           make_latest: true
           body: |
-            APK construit automat din `main` (commit ${{ github.sha }}).
-            **KidToon.apk** merge și pe telefon, și pe televizor (Android TV / Google TV).
+            APK-uri construite automat din `main` (commit ${{ github.sha }}).
+            - **KidToon-tv.apk**: aplicația de televizor (Android TV / Google TV), făcută pentru telecomandă
+            - **KidToon.apk**: aplicația de telefon și tabletă (merge și pe TV)
             Ghid de instalare: docs/INSTALARE-TV.md
-          files: apk/KidToon.apk
+          files: apk/*.apk

@@ -8,7 +8,8 @@ peste versiunea veche (prietenul ales, favoritele, sursele și galeria rămân).
 APK-ul se construiește automat pe GitHub la fiecare modificare în `main`.
 
 1. Deschide pe telefon sau calculator: <https://github.com/tmaringeorge/kidtoon/releases/latest>
-2. Descarcă **KidToon.apk** (același fișier merge și pe telefon, și pe televizor).
+2. Descarcă **KidToon-tv.apk**: aplicația făcută pentru televizor și telecomandă.
+   (**KidToon.apk** e varianta de telefon; merge și ea pe TV, dacă o preferi.)
 
 > Dacă repo-ul e privat, linkul merge doar cât ești logat pe GitHub, deci televizorul
 > nu îl poate descărca direct. Folosește una din variantele de la pasul 3.
@@ -36,12 +37,12 @@ APK-ul se construiește automat pe GitHub la fiecare modificare în `main`.
 1. Pe televizor, din **Google Play**, instalează **Downloader** (de la AFTVnews).
 2. Deschide Downloader, permite accesul la fișiere.
 3. În câmpul de adresă scrie:
-   `https://github.com/tmaringeorge/kidtoon/releases/latest/download/KidToon.apk`
+   `https://github.com/tmaringeorge/kidtoon/releases/latest/download/KidToon-tv.apk`
 4. Apasă **Go**. După descărcare apare ecranul de instalare → **Instalează** → **Deschide**.
 
 ### Varianta B: de pe telefon, fără cablu (merge și cu repo privat)
 
-1. Descarcă **KidToon.apk** pe telefon (pasul 1).
+1. Descarcă **KidToon-tv.apk** pe telefon (pasul 1).
 2. Instalează aplicația **Send Files to TV** (SFTTV) și pe telefon, și pe televizor, din Google Play.
 3. Pe televizor deschide SFTTV → **Receive**. Pe telefon → **Send** → alege APK-ul → alege televizorul.
 4. Pe televizor deschide fișierul primit (din SFTTV sau dintr-un manager de fișiere, de ex. **File Commander**)
@@ -49,7 +50,7 @@ APK-ul se construiește automat pe GitHub la fiecare modificare în `main`.
 
 ### Varianta C: cu stick USB
 
-1. Copiază **KidToon.apk** pe un stick USB de pe calculator.
+1. Copiază **KidToon-tv.apk** pe un stick USB de pe calculator.
 2. Bagă stick-ul în televizor, deschide **File Commander** (sau managerul de fișiere TCL), găsește APK-ul → **Instalează**.
 
 ### Varianta D: din calculator, prin ADB (pentru avansați)
@@ -59,7 +60,7 @@ APK-ul se construiește automat pe GitHub la fiecare modificare în `main`.
 3. Pe calculator (cu [platform-tools](https://developer.android.com/tools/releases/platform-tools)):
    ```bash
    adb connect 192.168.1.50:5555   # IP-ul televizorului
-   adb install -r KidToon.apk
+   adb install -r KidToon-tv.apk
    ```
    Acceptă pe televizor fereastra „Permite depanarea”.
 
