@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.KidToon" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <color name="bg">#FF1B1446</color>
+    <color name="accent">#FFFF5C9D</color>
+</resources>

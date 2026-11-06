@@ -1,9 +1,14 @@
 # KidToon
 
-Aplicație pentru copii, în Flutter, pentru **telefon** și **Android TV / Google TV** (același APK).
-Pornește de la [ZapTV](https://github.com/tmaringeorge/androidtv) și păstrează structura de acolo
-(meniul lateral cu secțiuni, grila, playerul, radioul cu modul Copil, setările), dar în față e copilul,
-nu radioul.
+Aplicație pentru copii, pentru **telefon** și **Android TV / Google TV**, în două variante, ca în
+[ZapTV](https://github.com/tmaringeorge/androidtv):
+
+- **`tv/`: KidToon TV**, aplicația nativă de televizor (Kotlin, Compose for TV, Media3), făcută pentru
+  telecomandă. Pornește din `androidtv/tv` și păstrează același drum: meniul lateral care se deschide la
+  focus, grila, playerul, radioul cu modul Copil, setările.
+- **rădăcina repo-ului: KidToon** în Flutter, pentru telefon și tabletă (merge și pe TV).
+
+În ambele, în față e copilul, nu radioul.
 
 ## Ce găsește copilul
 
@@ -40,16 +45,38 @@ Setările sunt după o **poartă pentru părinți**: o înmulțire cu 4 variante
 - **Modul Adult** al radioului și **Studioul de povești** cer și ele poarta.
 - Surse M3U și ghid TV (XMLTV), ca în ZapTV.
 
-## Pe televizor
+## Pe televizor: KidToon TV (`tv/`)
 
-Aplicația apare în lansatorul Android TV (are banner) și se folosește doar cu telecomanda: săgețile mută
-rama albă, OK apasă. Pe foile din Atelier săgețile aleg zona / mută pensula sau piesa, iar din marginea
-foii ajung la culori și unelte. Detalii și instalare: [`docs/INSTALARE-TV.md`](docs/INSTALARE-TV.md).
+Aplicația nativă de TV (`ro.kidtoon.tv`) apare în lansatorul Android TV cu banner și se folosește doar cu
+telecomanda. La prima pornire copilul își alege prietenul, apoi vede meniul lateral:
+
+| Meniu | Ce face |
+|---|---|
+| 🏠 Acasă | prietenul face cu mâna („Bună! Eu sunt Bubu!”) și plăci mari: Continuă povestea, Povești, Atinge, Colorează, Desenează, Construiește, Desene TV, Radio |
+| 🎬 Povești cu *numele ales* | toate poveștile, pe tot ecranul, cu voce; ◀ ▶ altă poveste, OK răspunde la întrebări. Fără radio |
+| 👆 Atinge și învață | scenele cu lucruri pe care copilul le alege cu săgețile și le „atinge” cu OK |
+| 🎨 Atelier | Colorează (10 planșe: săgețile aleg zona, OK o umple), Desenează (săgețile mută creionul, OK îl pune pe foaie, ștampile), Construiește (piese și abțibilduri: OK prinde piesa, săgețile o mută), Galeria mea |
+| 📺 Desene TV | grila de posturi pentru copii, categorii, preferate (ține apăsat OK), Continuă |
+| 🎵 Radio cu animații | exact radioul din ZapTV, cu modul Copil, poveștile și „Atinge” |
+| 🔒 Părinți | o înmulțire sau PIN-ul, apoi setările: doar posturi pentru copii, posturi ascunse, PIN, liste M3U, ghid TV, ecran sănătos, prietenul, Studio |
+
+Ecranul sănătos (pauza de clipit, odihna după limită, lumina caldă seara) merge și la povești, fără radio.
+În Atelier, din marginea din dreapta a foii ajungi la culori și unelte; 💾 Salvează pune lucrarea în Galerie.
+
+```bash
+cd tv
+./gradlew testDebugUnitTest
+./gradlew assembleRelease   # app/build/outputs/apk/release/app-release.apk
+```
+
+Poveștile (`assets/ghi/episodes.json`) și lista inclusă sunt comune cu aplicația Flutter.
+Detalii și instalare: [`docs/INSTALARE-TV.md`](docs/INSTALARE-TV.md).
 
 ## Build
 
-APK-ul se construiește pe GitHub Actions (`.github/workflows/build.yml`) la fiecare PR și se publică la
-[Releases](../../releases/latest) la fiecare push pe `main`.
+APK-urile se construiesc pe GitHub Actions (`.github/workflows/build.yml`) la fiecare PR și se publică la
+[Releases](../../releases/latest) la fiecare push pe `main`: **KidToon-tv.apk** (televizor) și
+**KidToon.apk** (telefon).
 
 ```bash
 flutter pub get
@@ -64,6 +91,7 @@ instaleze peste versiunea veche. E potrivit pentru uz personal; pentru Google Pl
 
 | Folder | Ce conține |
 |---|---|
+| `tv/app/src/main/java/ro/kidtoon/tv/` | aplicația de TV: `MainActivity.kt` (ecranele), `ui/HomeScreen.kt` (meniul și secțiunile), `ui/WelcomeScreen.kt`, `ui/KidPlayScreens.kt`, `ui/AtelierScreens.kt`, `ui/ParentGate.kt`, `ui/SettingsScreen.kt`, `data/` |
 | `lib/screens/main_screen.dart` | meniul lateral și secțiunile |
 | `lib/screens/welcome_screen.dart` | alegerea prietenului (prima pornire) |
 | `lib/screens/home_section.dart`, `stories_screen.dart`, `tv_section.dart` | Acasă, Povești / Atinge și învață, Desene TV |

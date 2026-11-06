@@ -1,0 +1,5 @@
+-keepattributes *Annotation*, InnerClasses
+-keep,includedescriptorclasses class ro.kidtoon.tv.**$$serializer { *; }
+-keepclassmembers class ro.kidtoon.tv.** { *** Companion; }
+-keepclasseswithmembers class ro.kidtoon.tv.** { kotlinx.serialization.KSerializer serializer(...); }
+-dontwarn org.xmlpull.v1.**
