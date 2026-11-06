@@ -8,7 +8,7 @@ import java.io.File
 
 class GhiCharacterTest {
     private val raw by lazy {
-        listOf("../../mobile/assets/ghi/episodes.json", "mobile/assets/ghi/episodes.json", "episodes.json")
+        listOf("../../assets/ghi/episodes.json", "assets/ghi/episodes.json", "episodes.json")
             .map(::File).first { it.exists() }.readText()
     }
 

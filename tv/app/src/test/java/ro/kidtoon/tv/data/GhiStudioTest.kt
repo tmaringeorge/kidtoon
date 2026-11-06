@@ -7,7 +7,7 @@ import java.io.File
 
 class GhiStudioTest {
     private val book by lazy {
-        val f = listOf("../../mobile/assets/ghi/episodes.json", "mobile/assets/ghi/episodes.json", "episodes.json")
+        val f = listOf("../../assets/ghi/episodes.json", "assets/ghi/episodes.json", "episodes.json")
             .map(::File).first { it.exists() }
         GhiBook.parse(f.readText())
     }

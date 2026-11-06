@@ -7,8 +7,8 @@ import java.io.File
 
 class GhiEpisodesTest {
     private val book by lazy {
-        // Fisierul e comun cu telefonul: mobile/assets/ghi/episodes.json.
-        val f = listOf("../../mobile/assets/ghi/episodes.json", "mobile/assets/ghi/episodes.json", "episodes.json")
+        // Fisierul e comun cu aplicația Flutter: assets/ghi/episodes.json.
+        val f = listOf("../../assets/ghi/episodes.json", "assets/ghi/episodes.json", "episodes.json")
             .map(::File).first { it.exists() }
         GhiBook.parse(f.readText())
     }
