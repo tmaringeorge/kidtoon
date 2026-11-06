@@ -37,13 +37,13 @@ void main() {
     expect(prefs.getBool('characterChosen'), isTrue);
 
     // Poveștile poartă numele ales, nu „GHI”.
-    await tester.tap(find.text('Povești').first);
+    await tester.tap(find.byTooltip('Povești'));
     await tester.pump(const Duration(milliseconds: 500));
     expect(find.text('🎬 Povești cu Zuzu'), findsOneWidget);
     expect(find.textContaining('GHI'), findsNothing);
 
     // Setările sunt după poarta părinților.
-    await tester.tap(find.text('Părinți'));
+    await tester.tap(find.byTooltip('Părinți'));
     await tester.pump(const Duration(milliseconds: 500));
     expect(find.text('Doar pentru părinți'), findsOneWidget);
     expect(find.textContaining('Cât face'), findsOneWidget);
